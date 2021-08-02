@@ -11,15 +11,14 @@ import {
   FooterSection,
 } from "../sections/mobile"
 
-import PageWrapper from '../components/PageWrapper'
+import PageWrapper from "../components/PageWrapper"
 const Header = {
-  headerClasses:"site-header--menu-end site-header--sticky light-header",
-  darkLogo:true,
-
+  headerClasses: "site-header--menu-end site-header--sticky light-header",
+  darkLogo: true,
 }
 
-const HeaderButton = ()=>{
-  return(
+const HeaderButton = () => {
+  return (
     <div className="header-btn header-btn--l2 ms-auto">
       <Link className=" btn sign-in-btn-l2" to="#">
         Sign In
@@ -30,16 +29,20 @@ const HeaderButton = ()=>{
 
 const Mobile = () => {
   return (
-    <PageWrapper headerConfig={Header} HeaderButton={<HeaderButton/>}>
+    <div>
+      {/* <PageWrapper headerConfig={Header} HeaderButton={<HeaderButton />}> */}
       <HeroSection />
-      <FeatureSection />
-      <HowSection />
-      <ContentSectionOne />
-      <ContentSectionTwo />
-      <ContentSectionThree />
-      <TestimonialSection />
+      {/* <FeatureSection /> */}
+      {/* <HowSection /> */}
+      {/* <ContentSectionOne />
+       */}
+      {/* <ContentSectionTwo /> */}
+      {/* <ContentSectionThree />
+       */}
+      {/* <TestimonialSection /> */}
       <FooterSection />
-    </PageWrapper>
+      {/* </PageWrapper> */}
+    </div>
   )
 }
 
