@@ -1,0 +1,28 @@
+import React from "react"
+// import Link from "../../../../components/Link"
+import ModalImage from "react-modal-image";
+export default function Card({image,titleSmall,title}) {
+  return (
+    <>
+      <div className="portfolio-card portfolio-card-masonry-1">
+        {/* <Link to="/portfolio-details" className="card-image d-block">
+          <img
+            src={image}
+            alt="portfolio"
+            className="w-100"
+          />
+        </Link> */}
+        <ModalImage
+          small={image}
+          large={image}
+          alt="Hello World!"
+           className="card-image"
+        />;
+        <div className="text-center content-area-grid-1   d-block ">
+          <span className=" d-block ponter-event-none">{titleSmall}</span>
+          <h3>{title}</h3>
+        </div>
+      </div>
+    </>
+  )
+}

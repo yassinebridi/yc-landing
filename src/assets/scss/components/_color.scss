@@ -1,0 +1,11 @@
+@each $color, $value in $backgroundColors{
+    .bg-#{$color}{
+      background-color:$value!important;
+    }
+  }
+  
+  @each $color, $value in $TextColors{
+    .text-#{$color}{
+      color:$value!important;
+    }
+  }

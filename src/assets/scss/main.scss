@@ -1,0 +1,90 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+-------------------------------------------------------------------
+Theme Name:     Appex - Landing Page Template
+Theme URL:      https://09-temp-apex.netlify.app/
+Author:         grayic
+Version:        1.0
+Last change:    23/01/2021
+Description:    A default stylesheet for Appex - Landing HTML5 Template.
+Primary use:    Business, responsive, bootstrap 5, html5, clean, modern, creative, landing page, app  landing etc.
+Support:        https://uxtheme.net/product-support/
+-------------------------------------------------------------------*/
+
+
+/*********** CSS TABLE OF CONTENTS *******************
+
+|--- 01.Component -> { Header }
+|--- 02.Component -> { Menu }
+|--- 03.Component -> { Button }
+|--- 04.Component -> { Form }
+|--- 05.Component -> { Cards }
+|--- 06.Component -> { Section Heading }
+|--- 07.Component -> { Search Form }
+|--- 08.Component -> { FAQ }
+
+
+|--- THEME CUSTOM STYLES
+
+|--- 01.sections -> { Hero Area }
+|--- 02.sections -> { Service }
+|--- 03.sections -> { Feature }
+|--- 04.sections -> { Content }
+|--- 05.sections -> { Brand }
+|--- 06.sections -> { Pricing }
+|--- 07.sections -> { Footer }
+|--- 08.sections -> { Testimonial }
+|--- 09.sections -> { How It Works }
+|--- 10.sections -> { CTA }
+|--- 11.sections -> { Blog }
+|--- 12.sections -> { Contact }
+|--- 13.sections -> { About Us }
+|--- 14.sections -> { Career }
+|--- 15.sections -> { Case Details }
+|--- 16.sections -> { Shop page}
+|--- 17.sections -> { Inner pages}
+|--- 18.sections -> { Portfolio}
+
+******************************************************/
+
+@import "helpers/theme-media-query"; 
+@import "theme-mode-control/theme-mode-activation";
+@import "bs-theming/bs-theming";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+//Theme Custom Push
+@import "./components/color";
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// @import "components/header";
+// @import "components/menu";
+@import "components/button";
+@import "components/form";
+@import "components/cards";
+@import "components/section_heading";
+@import "components/search_form";
+@import "components/faq";
+
+@import "sections/hero";
+@import "sections/service";
+@import "sections/feature";
+@import "sections/content";
+@import "sections/brand";
+@import "sections/pricing";
+@import "sections/footer";
+@import "sections/testimonial";
+@import "sections/how_it_works";
+@import "sections/cta";
+@import "sections/blog";
+@import "sections/contact";
+@import "sections/about-us";
+@import "sections/career";
+@import "sections/case-studies";
+@import "sections/shop";
+@import "sections/inner_page";
+@import "sections/portfolio";
+
+
+
+

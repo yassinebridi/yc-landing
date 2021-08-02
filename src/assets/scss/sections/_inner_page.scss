@@ -1,0 +1,350 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+    Terms & conditions    CSS 
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.terms-condition-banner {
+    padding: 50px 0px 35px 0px;
+
+    @include tablet {
+        padding: 90px 0px 60px 0px;
+    }
+
+    @include desktops {
+        padding: 100px 0px 80px 0px;
+    }
+
+    h2 {
+        color: $haiti;
+        font-size: 36px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -1.98px;
+        line-height: normal;
+
+        @include mobile-lg {
+            font-size: 40px;
+        }
+
+        @include tablet {
+            font-size: 48px;
+        }
+
+        @include desktops {
+            font-size: 60px;
+        }
+    }
+}
+
+.terms-condition-area {
+    margin-bottom: 25px;
+
+    @include tablet {
+        margin-bottom: 45px;
+    }
+
+    @include desktops {
+        margin-bottom: 95px;
+    }
+}
+
+.terms-license-area {
+    margin-bottom: 35px;
+    margin-top: 40px;
+
+    span {
+        font-weight: 700;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    li {
+        color: $haiti;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.59px;
+        line-height: 40px;
+        display: inline-flex;
+    }
+}
+
+.terms-condition-area {
+    h4 {
+        color: $haiti;
+        font-size: 24px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.79px;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+
+    p {
+        color: $haiti;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+}
+
+.terms-con-content-3 {
+    margin-top: 40px;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+   Coming Soon page    CSS 
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.coming-soon-page {
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 190px;
+        padding-bottom: 225px;
+    }
+}
+
+.coming-soon-content {
+    h2 {
+        color: $haiti;
+        font-size: 36px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -1.58px;
+        line-height: 46px;
+        margin-bottom: 23px;
+
+        @include mobile-lg {
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        @include tablet {
+            font-size: 48px;
+            line-height: 60px;
+        }
+    }
+
+    p {
+        color: $waterloo;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: 34px;
+    }
+}
+
+.countdown-item-area {
+    width: 100%;
+    margin-top: 30px;
+
+    @include tablet {
+        margin-top: 60px;
+    }
+
+    @include desktops {
+        margin-top: 70px;
+    }
+
+    .coutn-item {
+        // width: 25%;
+        margin-right: 25px;
+
+        @include tablet {
+            margin-right: 45px;
+        }
+    }
+
+    h6 {
+        color: $haiti;
+        font-size: 12px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: 1.2px;
+        line-height: normal;
+        text-align: left;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    h1 {
+        color: $haiti;
+        font-size: 32px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: 0px;
+        line-height: normal;
+        text-align: left;
+
+        @include mobile {
+            font-size: 70px;
+        }
+
+        @include mobile-lg {
+            font-size: 90px;
+        }
+
+        @include tablet {
+            font-size: 120px;
+            letter-spacing: -3.96px;
+        }
+
+    }
+
+    #seconds {
+        color: $primary;
+    }
+}
+
+.coming-soon-form-area {
+
+    @include tablet {
+        margin-top: 30px;
+    }
+
+    label {
+        color: $haiti;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: normal;
+        margin-bottom: 25px;
+    }
+
+    .com-soon-form {
+        width: 100%;
+        margin-right: 15px;
+
+        @include mobile-lg {
+            width: 394px;
+        }
+
+        .form-control {
+            height: 60px;
+            border-radius: 6px;
+            border: 1px solid $porcelain;
+            background-color: $white;
+            color: $waterloo;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+
+            &::placeholder {
+                color: $waterloo;
+            }
+        }
+    }
+}
+
+.com-soon-form-btn {
+
+    .btn {
+        height: 60px;
+        border-radius: 6px;
+        background-color: $primary;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        margin-top: 15px;
+        width: 100%;
+
+        @include mobile-lg {
+            margin-top: 0;
+            min-width: 180px;
+        }
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Thank you page    CSS 
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.thank-you-page {
+    padding-top: 108px;
+    padding-bottom: 60px;
+    
+  @include mobile {
+    padding-top: 125px;
+}
+    @include mobile-lg {
+        padding-top: 130px;
+    }
+    @include tablet {
+        padding-top: 80px;
+    padding-bottom: 100px;
+    }
+  
+}
+
+.thankyou-content {
+    h2 {
+        color: $haiti;
+        font-size: 40px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -2.97px;
+        line-height: normal;
+        margin-top: 30px;
+        @include mobile-lg {
+            font-size: 48px;
+        }
+        @include desktops {
+            font-size: 90px;
+        }
+    }
+
+    p {
+        color: $waterloo;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: 34px;
+    }
+}
+
+.back-to-btn {
+    .btn {
+        min-width: 180px;
+        height: 60px;
+        border-radius: 6px;
+        border: 1px solid $primary;
+        color: $primary;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        margin-top: 25px;
+        &:hover{
+            color: $primary !important;
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+}
+
+.portfolio-card-masonry{
+    >div{
+        pointer-events:none;
+    }
+}

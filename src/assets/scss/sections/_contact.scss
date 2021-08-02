@@ -1,0 +1,719 @@
+@include desktops {
+    .min-height-100vh {
+        min-height: 100vh;
+    }
+
+    .no-gutters {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .fixed-right-bg {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 50%;
+    }
+
+    .max-w-465 {
+        max-width: 465px;
+    }
+}
+
+.sign-in-menu {
+    padding-top: 20px;
+}
+
+.full-bg-position {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+    landing-8 contact area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.contact-area-l8-1 {
+    padding-top: 45px;
+
+    @include tablet {
+        padding-top: 65px;
+    }
+
+    @include desktops {
+        padding-top: 105px;
+    }
+
+    .section__heading {
+        h2 {
+            color: $white;
+        }
+
+        p {
+            color: $porcelain;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.5px;
+            line-height: 28px;
+
+            @include mobile {
+                padding: 0px 50px;
+            }
+
+            @include mobile-lg {
+                padding: 0px 70px;
+            }
+
+        }
+    }
+
+    .contact-map {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+        @include tablet {
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+
+        @include desktops {
+            margin-top: 30px;
+            margin-bottom: 110px;
+        }
+
+        & img {
+            width: 100%;
+
+            @include large-desktops {
+                width: initial;
+            }
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+    landing-9 contact area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.contact-l9-1 {
+    &__form-area {
+        box-shadow: 0 23px 78px rgba(0, 0, 0, 0.09);
+        border-radius: 22px;
+        background-color: $white;
+        padding: 20px 15px 20px 15px;
+        margin-top: -100px;
+
+        @include mobile {
+            padding: 30px 30px 40px 30px;
+        }
+
+        @include tablet {
+            padding: 67px 85px 60px 85px;
+            margin-top: -200px;
+        }
+
+        @include desktops {
+            margin-top: -320px;
+        }
+    }
+
+    &__heading {
+        h2 {
+            color: $haiti;
+            font-size: 36px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -1.39px;
+            line-height: normal;
+
+            @include mobile-lg {
+                font-size: 42px;
+            }
+        }
+
+        p {
+            color: $waterloo;
+            font-size: 20px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.66px;
+            line-height: 34px;
+            margin-top: 20px;
+        }
+    }
+
+    &__input {
+        margin-top: 60px;
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            color: $santas-gray;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+            width: 100%;
+            height: 60px;
+            border-radius: 107px;
+            border: 1px solid $mercury;
+            background-color: $catskillwhite;
+            padding-left: 30px;
+
+
+        }
+
+        .begin-advance-input {
+
+            width: 100%;
+
+            .form-control {
+                padding-left: 60px;
+            }
+
+            .beginer {
+                width: 100%;
+                position: relative;
+
+                @include mobile-lg {
+                    width: 48%;
+                }
+            }
+
+            .advanced {
+                width: 100%;
+                position: relative;
+
+                @include mobile-lg {
+                    width: 48%;
+                }
+            }
+
+            .check-form {
+                position: absolute;
+                top: 50%;
+                left: 30px;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        .get-start-btn {
+            .btn {
+                width: 100%;
+                height: 60px;
+                border-radius: 30px;
+                background-color: $primary;
+                color: $white;
+                font-size: 16px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: -0.53px;
+                line-height: normal;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Contact Us page 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.contact-us-area {
+    padding-top: 50px;
+
+    // @include tablet {
+    //     padding-top: 113px;
+    // }
+
+    // @include desktops {
+    //     padding-top: 158px;
+    // }
+
+    .contact-us-banner {
+        margin-bottom: 40px;
+
+        @include tablet {
+            margin-bottom: 55px;
+        }
+
+        @include desktops {
+            margin-bottom: 70px;
+        }
+
+        h2 {
+            color: $haiti;
+            font-size: 36px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -1.98px;
+            line-height: normal;
+            margin-bottom: 10px;
+
+            @include mobile-lg {
+                font-size: 40px;
+            }
+
+            @include tablet {
+                font-size: 60px;
+            }
+        }
+
+        p {
+            color: $waterloo;
+            font-size: 20px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.66px;
+            line-height: 34px;
+        }
+    }
+
+}
+
+.contact-us-form-area {
+    position: relative;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-bottom: 130px;
+    }
+
+    &:after {
+        position: absolute;
+        content: '';
+        background: $haiti;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+        height: 75%;
+    }
+}
+
+.contact-us-form {
+    box-shadow: 0 -20px 79px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
+    background-color: $white;
+    padding: 33px 30px 40px 30px;
+
+    @include mobile-lg {
+        padding: 55px 50px 55px 50px;
+    }
+
+    @include tablet {
+        padding: 55px 75px 55px 75px;
+    }
+
+    label {
+        color: $haiti;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: -0.6px;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    .form-control::placeholder {
+        color: $waterloo;
+        opacity: 1;
+    }
+
+    .form-control {
+        color: $waterloo;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid $porcelain;
+        background-color: $white;
+        margin-bottom: 28px;
+        padding-left: 15px;
+    }
+
+    textarea {
+        height: 220px !important;
+        padding-top: 15px;
+    }
+
+    .btn {
+        width: 100%;
+        height: 60px;
+        border-radius: 6px;
+        background-color: $primary;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        text-align: center;
+    }
+
+}
+
+.contact-get-in-touch-area {
+    margin-bottom: -30px;
+    padding-top: 60px;
+
+
+    @include tablet {
+        padding-top: 80px;
+
+    }
+
+    @include desktops {
+        padding-top: 120px;
+
+    }
+
+    .get-in-touch-single {
+        margin-bottom: 30px;
+
+        .icon {
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            border-radius: 8px;
+            background-color: $bunting-aprx;
+        }
+
+        .content {
+            h4 {
+                color: $white;
+                font-size: 22px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: -0.73px;
+                margin-top: 35px;
+                margin-bottom: 25px;
+            }
+
+            p {
+                color: $lynch;
+                font-size: 18px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: -0.59px;
+                line-height: 30px;
+            }
+
+            a {
+                text-decoration: none;
+                font-weight: 700;
+                color: $primary;
+            }
+        }
+    }
+}
+
+.contact-us-supp-btn {
+    .btn {
+        width: 100%;
+        height: 60px;
+        border-radius: 6px;
+        background-color: $primary;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        margin-top: 30px;
+
+        @include mobile-lg {
+            width: 180px;
+
+        }
+
+        @include tablet {
+            margin-top: 60px;
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+  Sign In page 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.sign-in-menu {
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+
+
+.sign-in-area {
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+}
+
+.sign-in-content {
+
+
+    @include desktops {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+        right: 30px;
+        width: 437px;
+    }
+
+    @include large-desktops {
+        right: 105px;
+        width: 465px;
+    }
+
+}
+
+.sign-in-tesimonial-card {
+    margin-top: 40px;
+    padding: 30px;
+
+    @include tablet {
+        padding: 45px;
+    }
+
+    @include desktops {
+        margin-top: 0;
+        padding: 0;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 30px;
+    }
+
+    @include large-desktops {
+        left: 75px;
+    }
+
+    img {
+        margin-right: 15px;
+    }
+
+    h4 {
+        color: $white;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: normal;
+    }
+
+    span {
+        color: $lynch;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+    }
+
+    p {
+        color: $white;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: 32px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+
+        @include mobile {
+            font-size: 20px;
+            line-height: 34px;
+        }
+
+        @include tablet {
+
+            margin-bottom: 40px;
+        }
+
+        @include desktops {
+            margin-bottom: 50px;
+        }
+    }
+
+    .testimonial__star {
+        margin: 0px -4px 0px -4px;
+
+        i {
+            font-size: 24px;
+            color: #fbb040;
+            margin: 0px 4px;
+        }
+    }
+
+}
+
+.sign-in-content {
+    h2 {
+        color: $haiti;
+        font-size: 34px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -1.58px;
+        line-height: 46px;
+        margin-bottom: 40px;
+
+        @include tablet {
+            font-size: 40px;
+            line-height: 52px;
+            margin-bottom: 50px;
+        }
+
+        @include desktops {
+            font-size: 48px;
+            line-height: 60px;
+            margin-bottom: 70px;
+        }
+    }
+
+    label {
+        color: #0d152e;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: -0.6px;
+        line-height: normal;
+        margin-bottom: 20px;
+    }
+
+    .form-control::placeholder {
+        color: $waterloo;
+        opacity: 1;
+    }
+
+    .form-control {
+        color: $waterloo;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid $porcelain;
+        background-color: $white;
+        margin-bottom: 28px;
+        padding-left: 15px;
+    }
+
+    .check-form {
+        margin-right: 15px;
+
+        .remember-text {
+            color: $haiti;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+        }
+
+        span {
+            margin-right: 12px;
+        }
+    }
+
+}
+
+.forgot-pass-text {
+    h6 {
+        color: $primary;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+    }
+
+    a {
+        text-decoration: none;
+        font-weight: 700;
+    }
+}
+
+.sign-in-log-btn {
+    .btn {
+        width: 100%;
+        height: 61px;
+        border-radius: 6px;
+        background-color: $primary;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        margin-top: 25px;
+    }
+}
+
+.create-new-acc-text {
+    p {
+        color: $waterloo;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        margin-top: 25px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $primary;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+    }
+}
+
+.sign-up-area {
+    @include desktops {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    @include extra-large-desktops {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}

@@ -1,0 +1,7 @@
+export { default as HeroSection } from "./Hero"
+export { default as FeatureSection } from "./Features"
+export { ContentSectionOne, ContentSectionTwo } from "./Content"
+export { default as TestimonialSection } from "./Testimonial"
+export { default as ContactSection } from "./Contact"
+export { default as FaqSection } from "./Faq"
+export { default as FooterSection } from "./Footer"

@@ -1,0 +1,902 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+    Blog Home-6     CSS 
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.blog-area-6 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+
+    .section__heading-2 {
+        h4 {
+            color: $primary;
+            font-size: 12px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: 1.2px;
+            line-height: normal;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            color: $haiti;
+            font-size: 42px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -1.89px;
+            line-height: normal;
+            margin-top: 30px;
+            margin-bottom: 0px;
+
+            @include tablet {
+                margin-bottom: 60px;
+            }
+
+            @include desktops {
+                margin-bottom: 80px;
+            }
+        }
+    }
+
+    .blog-all-items {
+        margin-bottom: -45px;
+    }
+
+    .blog-card {
+        height: 100%;
+        margin-bottom: 45px;
+
+        .blog-image {
+            img {
+                border-radius: 15px 15px 0px 0px;
+            }
+        }
+
+        .blog-content {
+            background: $white;
+            padding: 30px;
+            border-radius: 15px;
+
+            @include mobile {
+                padding: 35px 45px 45px 45px;
+            }
+
+
+            h4 {
+                font-size: 20px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: -0.66px;
+                line-height: 34px;
+
+                a {
+                    text-decoration: none;
+                    color: $haiti;
+                }
+            }
+
+            p {
+                color: $waterloo;
+                font-size: 16px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: -0.5px;
+                line-height: 28px;
+                margin-top: 20px;
+            }
+
+            .read-more-area {
+                margin-top: 30px;
+
+                span {
+                    color: $primary;
+                    font-size: 16px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: -0.53px;
+                    line-height: normal;
+                }
+
+                i {
+                    font-size: 18px;
+                    color: $primary;
+                }
+
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+    Blog main     CSS 
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.blog-banner {
+    padding: 40px 0px 35px 0px;
+    @include mobile {
+        padding: 40px 0px 35px 0px;
+    }
+    @include tablet {
+        padding: 60px 0px 52px 0px;
+    }
+
+
+    h2 {
+        color: $haiti;
+        font-size: 36px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -1.98px;
+        line-height: normal;
+
+        @include mobile-lg {
+            font-size: 40px;
+        }
+
+        @include tablet {
+            font-size: 60px;
+        }
+    }
+
+    p {
+        color: $waterloo;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: 34px;
+    }
+}
+
+.blog-main-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 80px;
+        padding-bottom: 130px;
+    }
+}
+
+.date-comment {
+    margin-top: 40px;
+
+    ul {
+        margin: 0px -14px -20px -14px;
+
+        li {
+            display: inline-flex;
+            align-items: center;
+            margin: 0px 14px 20px 14px;
+        }
+    }
+
+    span {
+        margin-left: 11px;
+    }
+}
+
+.blog-content-area {
+    i {
+        font-size: 15px;
+        color: $primary;
+
+    }
+
+    span {
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        a{
+            color: $haiti;
+            text-decoration: none;
+        }
+    }
+
+    h2 {
+       
+        font-size: 30px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -1.62px;
+        line-height: 42px;
+        margin-top: 30px;
+
+        @include mobile-lg {
+            font-size: 34px;
+            line-height: 45px;
+        }
+        a{
+            color: $haiti;
+            text-decoration: none;
+        }
+    }
+
+    p {
+        color: $lynch;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: 28px;
+        margin-top: 18px;
+    }
+
+    .continue-text{
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: $primary;
+            font-size: 18px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.59px;
+            line-height: normal;
+            margin-top: 8px;
+        }
+    }
+
+    
+}
+
+.blog-all-items {
+    margin-bottom: -30px;
+ padding-top: 35px;
+    @include tablet {
+       padding-top: 0;
+    }
+    .blog-item {
+        margin-bottom: 30px;
+        border-radius: 15px;
+        border: 1px solid $porcelain;
+        padding: 30px;
+    }
+}
+
+.blog-right-sidebar {
+  
+    @include desktops {
+        padding-left: 0px;
+    }
+
+    @include large-desktops {
+        padding-left: 70px;
+    }
+
+
+    @include extra-large-desktops {
+        padding-left: 100px;
+    }
+}
+
+
+.search-form {
+    .form-control {
+        height: 60px;
+        border-radius: 5px;
+        border: 1px solid $porcelain;
+        background-color: $white;
+        color: #81838c;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        padding-left: 25px;
+    }
+
+    button[type=submit] {
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        color: $santas-gray;
+        background-color: transparent;
+        cursor: pointer;
+        transform: translate(-50%, -50%);
+        border: 0;
+    }
+}
+
+.recent-posts {
+    h2 {
+        color: $haiti;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: normal;
+        margin-top: 50px;
+        margin-bottom: 35px;
+    }
+
+    .recent-post-item {
+        margin-bottom: 30px;
+
+        img {
+            padding-right: 18px;
+        }
+
+        .post-content {
+            h4 {
+                font-size: 18px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: -0.59px;
+                line-height: normal;
+                a{
+                    color: $haiti;
+                    text-decoration: none;
+                }
+            }
+
+            p {
+                color: $waterloo;
+                font-size: 16px;
+                font-weight: 500;
+                font-style: normal;
+                letter-spacing: -0.53px;
+                line-height: normal;
+                margin-bottom: 0;
+                a{
+                    color: $waterloo;
+                    text-decoration: none;
+                }
+            }
+            .post-date{
+                a {
+                    margin-left: 11px;
+                }
+            }
+
+            
+        }
+    }
+}
+
+.blog-categories {
+    margin-top: 50px;
+    @include tablet {
+        margin-top: 75px;
+    }
+    h2 {
+        color: $haiti;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+
+    .categories-item {
+        ul {
+
+            li {
+                color: $waterloo;
+                font-size: 16px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: -0.53px;
+                line-height: normal;
+                margin-bottom: 25px;
+                a{
+                    color: $waterloo;
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+}
+
+.blog-pagination {
+    padding-top: 40px;
+    @include tablet {
+        padding-top: 60px;
+    }
+
+    ul {
+        margin: 0px -3px 0px -3px;
+
+        li {
+            display: inline-flex;
+            margin: 0px 3px 0px 3px;
+
+        }
+    }
+
+
+    a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        border: 1px solid $porcelain;
+        background-color: $white;
+        text-decoration: none;
+        color: $haiti;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        transition: all 0.4s ease-in-out;
+
+        &:hover {
+            background: $primary;
+            color: $white;
+        }
+
+        &.active {
+            background: $primary;
+            color: $white;
+        }
+    }
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+    Blog Details     CSS 
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.blog-details-main-area {
+   
+    padding-bottom: 25px;
+
+    @include tablet {
+        padding-top: 0px;
+        padding-bottom: 45px;
+    }
+
+    @include desktops {
+        padding-top: 0px;
+        padding-bottom: 95px;
+    }
+
+    .blog-right-sidebar {
+    
+        @include large-desktops {
+            padding-left: 70px;
+        }
+    
+    
+        @include extra-large-desktops {
+            padding-left: 100px;
+        }
+    }
+    
+}
+
+.blog-details-banner {
+    padding: 50px 0px 35px 0px;
+    @include mobile {
+        padding: 65px 0px 35px 0px;
+    }
+    @include tablet {
+        padding: 65px 0px 55px 0px;
+    } 
+
+    h2 {
+        color: $haiti;
+        font-size: 34px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -1.12px;
+        line-height: 50px;
+    }
+}
+
+.blog-sub-details {
+    margin-top: 15px;
+
+    ul {
+        margin: 0px -5px 0px -5px;
+
+        li {
+            display: inline-flex;
+            margin: 0px 5px 0px 5px;
+
+
+            a {
+                text-decoration: none;
+                color: $waterloo;
+                font-size: 16px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: -0.53px;
+                line-height: normal;
+            }
+
+            span {
+                margin-right: 9px;
+            }
+        }
+    }
+}
+
+.blog-details-content {
+  padding-top: 60px;  
+    @include tablet {
+        padding-top: 0;
+    }
+    p {
+        color: $haiti;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: 28px;
+        margin-bottom: 28px;
+    }
+
+    h4 {
+        color: $haiti;
+        font-size: 24px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.79px;
+        line-height: normal;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+}
+
+.blog-single-content-area {
+    margin-top: 50px;
+}
+
+
+.comment-area {
+    padding-top: 45px;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-top: 65px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 100px;
+        padding-bottom: 130px;
+    }
+}
+
+.comment-body {
+    h2 {
+        color: $haiti;
+        font-size: 34px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -1.12px;
+        line-height: 50px;
+        margin-bottom: 0px;
+        @include tablet {
+            margin-bottom: 20px;
+        }
+      
+    }
+
+    label {
+        color: $haiti;
+        font-size: 16px;
+        font-weight: 500;
+        font-style: normal;
+        letter-spacing: -0.5px;
+        line-height: normal;
+        margin-bottom: 14px;
+        margin-top: 35px;
+    }
+
+    .form-control {
+        height: 51px;
+        border-radius: 5px;
+        border: 1px solid $porcelain;
+        background-color: $white;
+        color: $waterloo;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        padding-left: 20px;
+
+    }
+
+    .comment-box {
+
+        .form-control {
+            height: 231px;
+            padding-left: 24px;
+            padding-top: 25px;
+        }
+    }
+
+    .form-control::placeholder {
+        color: $waterloo;
+        opacity: 1;
+    }
+
+    .btn {
+        min-width: 180px;
+        height: 60px;
+        border-radius: 6px;
+        background-color: $primary;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        margin-top: 50px;
+    }
+}
+
+
+.blog-comment-list-area {
+    padding-top: 48px;
+    padding-bottom: 45px;
+    @include tablet {
+        padding-top: 68px;
+        padding-bottom: 65px;
+    }
+  
+    @include desktops {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    h2 {
+        color: $haiti;
+        font-size: 34px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -1.12px;
+        line-height: 50px;
+        margin-bottom: 35px;
+
+        @include tablet {
+            margin-bottom: 45px;
+        }
+        @include desktops {
+            margin-bottom: 55px;
+        }
+    }
+}
+
+.comment-card {
+    border-radius: 5px;
+    border: 1px solid $porcelain;
+    background-color: $white;
+    padding: 40px 40px 20px 40px;
+    margin-bottom: 30px;
+
+    img {
+        margin-right: 15px;
+    }
+
+    .author-name-date {
+        h4 {
+            color: $haiti;
+            font-size: 20px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.66px;
+            line-height: normal;
+        }
+
+        span {
+            color: $santas-gray;
+            font-size: 14px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.46px;
+            line-height: normal;
+        }
+    }
+
+    .comment-content {
+        p {
+            color: $haiti;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: 28px;
+            margin-top: 30px;
+        }
+    }
+}
+
+.comment-load-more-btn {
+    .btn {
+        color: $primary;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+
+        &:hover{
+            color: $primary !important;
+        }
+    }
+
+    i {
+        color: $primary;
+        margin-left: 22px;
+    }
+}
+
+
+
+/*Calendar css*/
+
+.calendar-area {
+    position: relative;
+    margin-top: 60px;
+
+
+    #calendar {
+        background: $white;
+        border-radius: 0;
+        border: 1px solid #ddd;
+    }
+
+    .current-date {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #ddd;
+        padding: 15px 10px;
+    }
+
+    .current-month {
+        color: $haiti;
+        font-size: 13px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.09px;
+        line-height: normal;
+    }
+
+    .week-days {
+        display: flex;
+        justify-content: space-between;
+        color: #dfebed;
+        font-weight: 600;
+        padding: 0px 0px;
+    }
+
+    .week-day {
+        padding: 10px;
+        text-align: center;
+        width: 43px;
+        color: #161c2d;
+        font-size: 13px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.09px;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .days {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .weeks {
+        display: flex;
+        flex-direction: column;
+        color: $white;
+        padding: 0 0px;
+    }
+
+    .week {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        margin-bottom: 0px;
+    }
+
+    .not-current-month {
+        opacity: 0.3;
+    }
+
+    .day {
+        padding: 10px;
+        text-align: center;
+        width: 43px;
+        color: $waterloo;
+        font-size: 13px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.09px;
+        line-height: normal;
+    }
+
+
+    .day.today {
+        width: 41px;
+        height: 40px;
+        background-color: $primary;
+        color: $white;
+    }
+
+    .day:not(.not-current-month):hover {
+        font-weight: 600;
+    }
+
+    #prev,
+    #next {
+        position: absolute;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        color: $waterloo;
+        padding: 15px;
+        font-size: 13px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.09px;
+        line-height: normal;
+        text-align: left;
+    }
+
+
+
+    #prev:before {
+        content: "<";
+        padding-right: 4px;
+    }
+
+    #next {
+        right: 0;
+    }
+
+    #next:after {
+        content: ">";
+        padding-left: 4px;
+    }
+
+    #week-starter {
+        position: fixed;
+        top: 0;
+        right: 0;
+        color: #2b4450;
+        padding: 20px;
+        text-shadow: 2px 2px 1px #dfebed;
+    }
+
+    .week-starter__choice {
+        cursor: pointer;
+    }
+
+    .week-starter__choice>input {
+        cursor: pointer;
+    }
+
+}

@@ -1,0 +1,336 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+       About Us Banner
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.about-us-banner {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    @include mobile {
+        // padding-top: 115px;
+    }
+    @include tablet {
+        // padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        // padding-top: 120px;
+        padding-top: 65px;
+        padding-bottom: 120px;
+    }
+}
+
+.about-us-banner-content {
+    h2 {
+        color: $haiti;
+        font-size: 36px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -1.98px;
+        line-height: 48px;
+
+        @include mobile-lg {
+            font-size: 40px;
+            line-height: 52px;
+        }
+
+        @include tablet {
+            font-size: 55px;
+            line-height: 67px;
+        }
+
+        @include desktops {
+            font-size: 60px;
+            line-height: 72px;
+        }
+    }
+
+    p {
+        color: $waterloo;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: 34px;
+        margin-top: 15px;
+    }
+
+    .btn {
+        width: 180px;
+        height: 60px;
+        border-radius: 6px;
+        background-color: $primary;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        margin-top: 33px;
+    }
+}
+
+.inner-pages-menu {
+    li {
+        .nav-link {
+            color: $haiti !important;
+        }
+    }
+}
+
+.log-in-btn-inner {
+    color: $haiti !important;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+       About Us Content-1
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.about-content-1 {
+    padding-bottom: 50px;
+
+    @include tablet {
+        padding-bottom: 75px;
+    }
+
+    @include desktops {
+        padding-bottom: 120px;
+    }
+
+
+    .about-content-1-right {
+        margin-top: 30px;
+
+        @include tablet {
+            margin-top: 40px;
+        }
+
+        @include desktops {
+            margin-top: 50px;
+        }
+
+    }
+}
+
+.about-content-1-bottom {
+    margin-top: 45px;
+
+    @include tablet {
+        margin-top: 65px;
+    }
+
+    @include desktops {
+        margin-top: 115px;
+    }
+}
+
+.about-content-1-heading {
+    h2 {
+        color: $haiti;
+    }
+}
+
+.about-content-1-content {
+    margin-bottom: -35px;
+
+    @include extra-large-desktops {
+        padding-right: 65px;
+    }
+
+    p {
+        color: $waterloo;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: 34px;
+        margin-bottom: 35px;
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+       About Us Content-1
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.about-content-2 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 110px;
+        padding-bottom: 130px;
+    }
+}
+
+.about-content-2-img-2 {
+    margin-top: 25px;
+
+    & img {
+        @include desktops {
+            padding-left: 70px;
+        }
+
+    }
+
+}
+
+.about-content-2-right-img {
+    margin-top: 40px;
+    @include tablet {
+        margin-top: 50px;
+    }
+  
+    @include desktops {
+        margin-top: 75px;
+    }
+}
+
+.about-content-2-content {
+    padding-top: 40px;
+
+    @include tablet {
+        padding-top: 0;
+    }
+
+    @include large-desktops {
+        padding-left: 95px;
+        padding-right: 45px;
+    }
+
+    @include extra-large-desktops {
+        padding-right: 155px;
+    }
+
+    p {
+        margin-bottom: 32px;
+    }
+
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+       About Us page Team
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.about-us-temam-area {
+    padding-top: 45px;
+    padding-bottom: 50px;
+
+    @include tablet {
+        padding-top: 65px;
+        padding-bottom: 70px;
+    }
+
+    @include desktops {
+        padding-top: 115px;
+        padding-bottom: 120px;
+    }
+
+    .section__heading {
+        margin-bottom: 45px;
+
+        @include tablet {
+            margin-bottom: 55px;
+        }
+
+        @include desktops {
+            margin-bottom: 65px;
+        }
+
+    }
+}
+
+.about-team-item {
+    margin-bottom: -40px;
+
+    @include tablet {
+        margin-bottom: -70px;
+    }
+    .col-lg-3 {
+        margin-bottom: 40px;
+        @include tablet {
+            margin-bottom: 70px;
+        }
+    }
+}
+
+.about-team-card {
+    &__content {
+        margin-top: 28px;
+
+        h6 {
+            color: $haiti;
+            font-size: 22px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.73px;
+            line-height: normal;
+        }
+
+        span {
+            color: $waterloo;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+        }
+    }
+
+    &__view-open {
+       
+        @include mobile-lg {
+            padding: 90px 22px;
+        }
+      
+        @include tablet {
+            padding: 167px 37px;
+        }
+
+        @include desktops {
+            padding: 72px 22px;
+        }
+
+        @include large-desktops {
+            padding: 116px 22px;
+        }
+
+        @include large-desktops-mid {
+            padding: 116px 22px;
+        }
+
+        @include extra-large-desktops {
+            padding: 145px 22px;
+        }
+
+        h4 {
+            color: $haiti;
+            font-size: 22px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.73px;
+            line-height: 30px;
+        }
+
+        .btn {
+            color: $primary;
+            font-size: 16px;
+            font-weight: 700;
+            min-width: 88px;
+            letter-spacing: -0.53px;
+            line-height: normal;
+            height: 22px;
+            border-radius: 0;
+            border-bottom: 2px solid $primary;
+            padding: 0px 0px 15px 0px !important;
+            margin-top: 25px;
+            &:hover{
+                color: $primary !important;
+            }
+        }
+    }
+}

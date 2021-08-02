@@ -1,0 +1,55 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         Brand     CSS 
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.brand-area{
+    @include mobile-xs {
+        margin: 0px -30px -30px -30px;
+        padding-top: 60px;
+    }
+    @include tablet {
+        padding-top: 80px;
+    }
+    @include large-desktops {
+        margin: 0px;
+        padding-top: 85px;
+    }
+    .brand-area__single{
+        @include mobile-xs {
+            margin: 0px 30px 30px 30px;
+        }
+        @include large-desktops {
+            margin: 0px;
+        }
+        
+    }
+
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         Brand Area -L5     CSS 
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.brand-area-l5{
+    padding-bottom: 130px;
+    .section__heading{
+        h2{
+            color: $white;
+            margin-bottom: 50px;
+            @include tablet {
+                margin-bottom: 70px;
+            }
+          
+            @include desktops {
+                margin-bottom: 105px;
+            }
+        }
+    }
+}
+
+.brand-items-l5{
+    margin: 0px -30px -55px -30px;
+    .single-item {
+        margin: 0px 30px 55px 30px;
+    }
+}

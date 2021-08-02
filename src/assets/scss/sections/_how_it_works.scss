@@ -1,0 +1,94 @@
+.how-it-works-area {
+    padding-top: 47px;
+    padding-bottom: 35px;
+    @include tablet {
+        padding-top: 67px;
+        padding-bottom: 55px;
+    }
+  
+    @include desktops {
+        padding-top: 117px;
+    padding-bottom: 105px;
+    }
+    .section__heading {
+        padding-bottom: 40px;
+        @include tablet {
+            padding-bottom: 50px;
+        }
+      
+        @include desktops {
+            padding-bottom: 70px;
+        }
+        p {
+            opacity: 0.6;
+        }
+    }
+    .how-it-works-items {
+        margin-bottom: -45px;
+    }
+
+    .how-it--card {
+        background: transparent;
+        margin-bottom: 45px;
+        border: none;
+        &__number {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 50%;
+            color:$white;
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 23px;
+
+            span {
+                color: $white;
+                background-color: $bunting-aprx;
+                font-size: 22px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: -0.73px;
+                line-height: normal;
+
+            }
+        }
+
+
+
+        &__headeing {
+            h4 {
+                color: $white;
+                font-size: 34px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: -1.12px;
+                line-height: normal;
+            }
+        }
+
+
+        &__content {
+           
+            @include large-desktops {
+                margin: 0px 6px;
+            }
+          
+            @include large-desktops-mid {
+                margin: 0px 40px;
+            }
+            p {
+                color: #F5F5F5;
+                opacity: 0.6;
+                font-size: 16px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: -0.5px;
+                line-height: 28px;
+                margin-top: 10px;
+            }
+        }
+
+
+    }
+}

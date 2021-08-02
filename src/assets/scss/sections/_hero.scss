@@ -1,0 +1,1519 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+      Hero Area 
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.bg-position {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.hero--area-curve__2 {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+
+  @include desktops {
+    &:after {
+      position: absolute;
+      content: "";
+      background: $catskillwhite;
+      width: 105%;
+      height: 420px;
+      left: -1%;
+      bottom: -23%;
+      z-index: -1;
+      transform: rotate(-9deg);
+
+      @include large-desktops {
+        transform: rotate(-10deg);
+      }
+    }
+  }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+      Landing 1 Hero Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.hero-area {
+  background-position: 100% 100% !important;
+
+  padding: 100px 0px 0px 0px;
+
+  @include mobile {
+    padding: 120px 0px 0px 0px;
+  }
+
+  @include mobile-lg {
+    padding: 125px 0px 0px 0px;
+  }
+
+  @include tablet {
+    padding: 145px 0px 0px 0px;
+  }
+
+  @include desktops {
+    padding: 155px 0px 0px 0px;
+  }
+
+  .hero-area__title {
+    h2 {
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: -1.81px;
+
+      @include mobile-xs {
+        font-size: 36px;
+        line-height: 41px;
+      }
+
+      @include mobile-lg {
+        font-size: 45px;
+        line-height: 50px;
+      }
+
+      @include tablet {
+        font-size: 55px;
+        line-height: 60px;
+      }
+    }
+  }
+
+  .badge {
+    h6 {
+      font-size: 14px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: -0.46px;
+      line-height: normal;
+      padding: 5px;
+      border-radius: 30px;
+    }
+
+    &-offer {
+      padding: 0px 15px !important;
+      border-radius: 30px;
+    }
+
+    & span {
+      padding: 0px 12px 0px 15px;
+    }
+  }
+
+  .hero-area__btn {
+    @include mobile-xs {
+      margin-top: 40px;
+    }
+
+    @include tablet {
+      margin-top: 55px;
+    }
+
+    .btn {
+      font-size: 16px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: -0.53px;
+      line-height: normal;
+      text-align: center;
+      border-radius: 6px;
+      padding: 18px 28px;
+    }
+  }
+
+  .hero-area__image {
+    @include mobile-xs {
+      margin-top: 50px;
+    }
+
+    @include desktops {
+      margin-top: 110px;
+    }
+
+    & img {
+      width: 100%;
+    }
+  }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+      Landing 2 Hero Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.hero-area-2 {
+  @include mobile-xs {
+    padding-top: 110px;
+    padding-bottom: 30px;
+  }
+
+  @include mobile {
+    padding-top: 160px;
+    padding-bottom: 60px;
+  }
+
+  @include tablet {
+    padding-top: 180px;
+    padding-bottom: 80px;
+  }
+
+  @include desktops {
+    padding-top: 250px;
+    padding-bottom: 175px;
+  }
+
+  .hero-area-content {
+    padding-top: 35px;
+
+    @include tablet {
+      margin-right: 40px;
+    }
+
+    @include large-desktops {
+      margin-right: 85px;
+      padding-top: 0px;
+    }
+
+    @include large-desktops-mid {
+      margin-right: 35px;
+    }
+
+    @include extra-large-desktops {
+      margin-right: 160px;
+    }
+
+    h2 {
+      color: $haiti;
+      font-size: 36px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: -2.11px;
+      line-height: 47px;
+
+      @include mobile-lg {
+        font-size: 48px;
+        line-height: 60px;
+      }
+
+      @include tablet {
+        font-size: 64px;
+        line-height: 70px;
+      }
+
+      @include desktops {
+        font-size: 62px;
+      }
+
+      @include large-desktops {
+        font-size: 64px;
+      }
+    }
+
+    p {
+      color: #81838c;
+      font-size: 20px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: -0.66px;
+      line-height: 34px;
+      margin-top: 30px;
+    }
+
+    .hero-area-btn-group {
+      margin: 48px -8px -20px -8px;
+
+      a {
+        margin: 0px 8px 20px 8px;
+        display: inline-block;
+      }
+    }
+  }
+
+  .hero-area-image-group {
+    position: relative;
+
+    .image-1 {
+      img {
+        box-shadow: 31px 40px 78px rgba(111, 118, 138, 0.16);
+        border-radius: 30px;
+      }
+    }
+
+    .image-2 {
+      position: absolute;
+      top: -5%;
+      left: 0%;
+      z-index: -1;
+
+      @include mobile {
+        left: 10%;
+      }
+
+      @include mobile-lg {
+        left: 12%;
+      }
+
+      @include tablet {
+        left: 15%;
+      }
+
+      @include desktops {
+        left: 11%;
+      }
+
+      @include large-desktops {
+        left: 17%;
+      }
+
+      @include extra-large-desktops {
+        left: 22%;
+      }
+
+      img {
+        @include mobile-xs {
+          display: none;
+        }
+
+        @include mobile {
+          display: block;
+        }
+      }
+    }
+
+    .image-3 {
+      position: absolute;
+
+      @include mobile-xs {
+        top: 64%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      @include mobile {
+        top: 18%;
+        right: 0;
+        left: inherit;
+        transform: inherit;
+      }
+
+      img {
+        box-shadow: 24px 26px 57px rgba(111, 118, 138, 0.16);
+        border-radius: 30px;
+      }
+    }
+
+    .image-4 {
+      position: absolute;
+      top: 53%;
+      left: 2%;
+
+      @include mobile-lg {
+        left: -7%;
+      }
+
+      @include tablet {
+        left: 2%;
+      }
+
+      @include desktops {
+        left: 0%;
+      }
+
+      @include large-desktops {
+        left: 7%;
+      }
+
+      @include large-desktops-mid {
+        left: -4%;
+      }
+
+      @include extra-large-desktops {
+        left: 9%;
+      }
+
+      img {
+        box-shadow: 8px 39px 36px rgba(111, 118, 138, 0.16);
+        border-radius: 30px;
+
+        @include mobile-xs {
+          display: none;
+        }
+
+        @include mobile {
+          display: block;
+          transform: scale(0.8);
+        }
+
+        @include mobile-lg {
+          transform: scale(1);
+        }
+
+        @include desktops {
+          transform: scale(0.8);
+        }
+
+        @include large-desktops {
+          transform: scale(1);
+        }
+      }
+    }
+
+    .image-5 {
+      position: absolute;
+      top: 52%;
+      right: 0%;
+
+      @include large-desktops {
+        right: 0%;
+      }
+
+      @include large-desktops-mid {
+        right: 9%;
+      }
+
+      img {
+        box-shadow: -28px 39px 60px rgba(111, 118, 138, 0.16);
+        border-radius: 30px;
+
+        @include mobile-xs {
+          display: none;
+        }
+
+        @include mobile {
+          display: block;
+          transform: scale(0.8);
+        }
+
+        @include mobile-lg {
+          transform: scale(1);
+        }
+
+        @include desktops {
+          transform: scale(0.8);
+        }
+
+        @include large-desktops {
+          transform: scale(1);
+        }
+      }
+    }
+  }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+      Landing 3 Hero Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.hero-area-l3 {
+  position: relative;
+  z-index: 1;
+  padding: 87px 0px 60px 0px;
+
+  @include mobile {
+    padding: 107px 0px 60px 0px;
+  }
+
+  @include mobile-lg {
+    padding: 92px 0px 60px 0px;
+  }
+
+  @include tablet {
+    padding: 140px 0px 80px 0px;
+  }
+
+  @include desktops {
+    padding: 200px 0px 130px 0px;
+  }
+
+  &:after {
+    position: absolute;
+    content: "";
+    background: $bunting;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: -1;
+  }
+
+  &__content {
+    margin-top: 45px;
+
+    @include tablet {
+      padding-right: 80px;
+    }
+
+    @include desktops {
+      margin-top: 0;
+      padding-right: 0px;
+    }
+
+    @include large-desktops {
+      padding-right: 45px;
+    }
+
+    @include extra-large-desktops {
+      padding-right: 134px;
+    }
+
+    h2 {
+      color: $white;
+      font-size: 36px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: -1.58px;
+      line-height: 50px;
+
+      @include mobile {
+        font-size: 40px;
+      }
+
+      @include mobile-lg {
+        font-size: 48px;
+        line-height: 60px;
+      }
+    }
+
+    p {
+      color: $lynch;
+      font-size: 20px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: -0.66px;
+      line-height: 34px;
+      margin-top: 30px;
+    }
+
+    .btn {
+      width: 192px;
+      height: 60px;
+      border-radius: 7px;
+      background-color: $primary;
+      color: $white;
+      font-size: 16px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: -0.53px;
+      line-height: normal;
+      margin-top: 32px;
+    }
+  }
+}
+
+.hero-area-l3-image-group {
+  position: relative;
+
+  .image-1 {
+    & img {
+      @include mobile-lg {
+        transform: scale(0.9);
+      }
+
+      @include tablet {
+        transform: scale(1);
+      }
+    }
+  }
+
+  .image-2 {
+    position: absolute;
+    left: -53px;
+    top: -65px;
+
+    @include mobile {
+      left: -14px;
+      top: -22px;
+    }
+
+    @include mobile-lg {
+      left: 27px;
+      top: 32px;
+    }
+
+    & img {
+      transform: scale(0.5);
+
+      @include mobile {
+        transform: scale(0.7);
+      }
+
+      @include mobile-lg {
+        transform: scale(0.8);
+      }
+
+      @include tablet {
+        transform: scale(1);
+      }
+    }
+  }
+
+  .image-3 {
+    position: absolute;
+    right: -38px;
+    bottom: -45px;
+
+    @include mobile {
+      right: -4px;
+      bottom: 45px;
+    }
+
+    @include mobile-lg {
+      right: 20px;
+      bottom: 30px;
+    }
+
+    @include desktops {
+      right: -20px;
+      bottom: -50px;
+    }
+
+    @include large-desktops {
+      bottom: -15px;
+      right: -15px;
+    }
+
+    @include extra-large-desktops {
+      bottom: 50px;
+      right: 15px;
+    }
+
+    & img {
+      transform: scale(0.5);
+
+      @include mobile {
+        transform: scale(0.7);
+      }
+
+      @include mobile-lg {
+        transform: scale(0.8);
+      }
+
+      @include tablet {
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+      Landing 4 Hero Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.hero-area-l4 {
+  background-position: left !important;
+  background-size: 100% 30% !important;
+  padding-top: 110px;
+  padding-bottom: 50px;
+
+  @include mobile {
+    padding-top: 135px;
+  }
+
+  @include tablet {
+    background-size: 100% 45% !important;
+    padding-top: 155px;
+    padding-bottom: 70px;
+  }
+
+  @include desktops {
+    background-size: 68% 72% !important;
+    padding-top: 255px;
+    padding-bottom: 200px;
+  }
+}
+
+.hero-l3-heading {
+  padding-top: 100px;
+
+  @include tablet {
+    padding-right: 40px;
+  }
+
+  @include desktops {
+    padding-right: 0px;
+    padding-top: 0;
+  }
+
+  @include large-desktops {
+    padding-right: 10px;
+  }
+
+  @include extra-large-desktops {
+    padding-right: 85px;
+  }
+
+  h2 {
+    color: $haiti;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -1.58px;
+    line-height: 48px;
+
+    @include mobile {
+      font-size: 40px;
+      line-height: 52px;
+    }
+
+    @include mobile-lg {
+      font-size: 48px;
+      line-height: 60px;
+    }
+  }
+
+  p {
+    color: $waterloo;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.66px;
+    line-height: 34px;
+    margin-top: 25px;
+  }
+
+  .btn {
+    width: 180px;
+    height: 60px;
+    box-shadow: 15px 15px 30px rgba(65, 111, 244, 0.3);
+    border-radius: 33px;
+    background-color: $primary;
+    color: $white;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -0.53px;
+    line-height: normal;
+    margin-top: 20px;
+  }
+}
+
+.hero-l3-image-group {
+  position: relative;
+
+  .image-1 {
+    & img {
+      width: 100%;
+      border-radius: 16px 16px 0 0;
+      box-shadow: 23px 53px 71px rgba(114, 114, 114, 0.27);
+    }
+  }
+
+  .image-2 {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+
+    @include tablet {
+      top: 50%;
+      right: -13%;
+    }
+
+    @include desktops {
+      right: 0px;
+    }
+
+    @include large-desktops {
+      right: -13px;
+    }
+
+    @include large-desktops-mid {
+      right: -13%;
+    }
+
+    & img {
+      box-shadow: 4px 28px 62px rgba(152, 152, 152, 0.16);
+      border-radius: 10px;
+      width: 140px;
+
+      @include mobile {
+        width: initial;
+      }
+    }
+  }
+
+  .image-3 {
+    position: absolute;
+    bottom: -50px;
+    left: 0px;
+
+    @include tablet {
+      bottom: -50px;
+      left: -24px;
+    }
+
+    & img {
+      box-shadow: 9px 12px 30px rgba(123, 123, 123, 0.16);
+      border-radius: 10px;
+    }
+  }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+      Landing 5 Hero Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.hero-area-l5 {
+  padding-top: 95px;
+  padding-bottom: 60px;
+
+  @include mobile {
+    padding-top: 117px;
+  }
+
+  @include tablet {
+    padding-top: 137px;
+    padding-bottom: 80px;
+  }
+
+  @include desktops {
+    padding-top: 180px;
+    padding-bottom: 130px;
+  }
+}
+
+.hero-area-content-l5 {
+  &__content {
+    h2 {
+      color: $white;
+      font-size: 36px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: -1.58px;
+      line-height: 48px;
+
+      @include mobile {
+        font-size: 40px;
+        line-height: 52px;
+      }
+
+      @include mobile-lg {
+        font-size: 48px;
+        line-height: 60px;
+      }
+    }
+
+    p {
+      color: $lynch;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: -0.53px;
+      line-height: 28px;
+      margin-top: 18px;
+
+      @include tablet {
+        padding: 0px 50px;
+      }
+    }
+  }
+
+  &__btn {
+    margin: 0px -8px -20px -8px;
+    margin-top: 45px;
+
+    .btn {
+      margin: 0px 8px 20px 8px;
+    }
+
+    .btn--get-start {
+      width: 180px;
+      height: 60px;
+      border-radius: 30px;
+      background-color: $primary;
+      color: $white;
+      font-size: 16px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: -0.53px;
+      line-height: normal;
+    }
+
+    .btn--all-feature {
+      width: 180px;
+      height: 60px;
+      border-radius: 30px;
+      border: 1px solid $primary;
+      color: $primary;
+      font-size: 16px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: -0.53px;
+      line-height: normal;
+    }
+  }
+}
+
+.header-btn-l5 {
+  width: 110px;
+  height: 45px;
+  border-radius: 23px;
+  border: 1px solid $white;
+  color: $white;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.hero-area-l5-image {
+  margin-top: 40px;
+
+  @include tablet {
+    margin-top: 60px;
+  }
+
+  @include desktops {
+    margin-top: 90px;
+  }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+      Landing 6 Hero Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.hero-area-6 {
+  .dot-image {
+    position: absolute;
+    top: 14%;
+    left: 0;
+    z-index: -1;
+  }
+
+  .hero-area-content {
+    padding-top: 0px;
+    padding-bottom: 60px;
+
+    @include tablet {
+      padding-top: 20px;
+      padding-bottom: 80px;
+    }
+
+    @include desktops {
+      padding-top: 323px;
+      padding-bottom: 380px;
+    }
+
+    h2 {
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: -1.98px;
+      font-size: 37px;
+      line-height: 47px;
+
+      @include mobile {
+        font-size: 50px;
+        line-height: 60px;
+      }
+
+      @include mobile-lg {
+        font-size: 60px;
+        line-height: 72px;
+      }
+
+      @include desktops {
+        font-size: 55px;
+        line-height: 68px;
+      }
+
+      @include large-desktops {
+        font-size: 60px;
+        line-height: 72px;
+      }
+    }
+
+    p {
+      font-size: 20px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: -0.66px;
+      line-height: 34px;
+      padding-right: 0px;
+      margin-top: 35px;
+
+      @include tablet {
+        padding-right: 75px;
+      }
+
+      @include large-desktops {
+        padding-right: 45px;
+      }
+
+      @include large-desktops-mid {
+        padding-right: 135px;
+      }
+    }
+
+    .hero-area__btn {
+      .btn {
+        min-width: 100%;
+        height: 60px;
+        border-radius: 5px;
+        margin-top: 25px;
+
+        @include mobile-lg {
+          min-width: 180px;
+        }
+      }
+    }
+  }
+
+  .hero-area-image-group {
+    position: relative;
+    padding-top: 75px;
+
+    @include mobile {
+      padding-top: 75px;
+    }
+
+    @include tablet {
+      padding-top: 85px;
+    }
+
+    @include desktops {
+      padding-top: 0;
+    }
+
+    .image-1 {
+      transform: rotate(15deg);
+
+      @include desktops {
+        transform: rotate(0deg);
+      }
+
+      @include large-desktops {
+        position: absolute;
+        top: 45px;
+        left: 35%;
+      }
+
+      @include large-desktops-mid {
+        left: 50%;
+      }
+
+      & img {
+        width: 100%;
+
+        @include desktops {
+          width: initial;
+        }
+      }
+    }
+
+    .image-2 {
+      display: none;
+
+      @include tablet {
+        display: block;
+        position: absolute;
+        top: 40%;
+        left: -12%;
+        transform: rotate(15deg);
+      }
+
+      @include desktops {
+        left: 15%;
+        top: 120px;
+        transform: rotate(0deg);
+      }
+
+      @include large-desktops {
+        top: 315px;
+        left: 6%;
+      }
+
+      @include large-desktops-mid {
+        top: 300px;
+        left: 23%;
+      }
+    }
+
+    .image-3 {
+      display: none;
+
+      @include tablet {
+        display: block;
+        position: absolute;
+        top: 30%;
+        right: -20%;
+        left: inherit;
+        transform: rotate(15deg);
+      }
+
+      @include desktops {
+        top: 500px;
+        transform: rotate(0deg);
+        right: 36%;
+      }
+
+      @include large-desktops {
+        top: 600px;
+        left: -8%;
+      }
+
+      @include large-desktops-mid {
+        top: 588px;
+        left: 7%;
+      }
+      @include extra-large-desktops {
+        top: 594px;
+        left: 11%;
+      }
+    }
+  }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+      Landing 7 Hero Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.hero-area-7 {
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+  @include tablet {
+    padding-top: 122px;
+    padding-bottom: 70px;
+  }
+
+  @include desktops {
+    padding-top: 150px;
+    padding-bottom: 120px;
+  }
+}
+
+.hero-area-content-l7 {
+  h2 {
+    color: $haiti;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -2px;
+    line-height: 46px;
+
+    @include mobile-lg {
+      font-size: 48px;
+      line-height: 60px;
+    }
+
+    @include tablet {
+      font-size: 64px;
+      line-height: 70px;
+    }
+  }
+
+  p {
+    color: $waterloo;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.66px;
+    line-height: 34px;
+    margin-top: 25px;
+  }
+}
+
+.hero-area-group-btn {
+  margin: 0px -6px -15px -6px;
+  margin-top: 45px;
+
+  a {
+    margin: 0px 6px 15px 6px;
+    display: inline-block;
+  }
+}
+
+.hero-area-image-group-l7 {
+  margin-top: 70px;
+
+  @include tablet {
+    margin-top: 90px;
+  }
+
+  @include desktops {
+    margin-top: 110px;
+  }
+
+  @include extra-large-desktops {
+    padding: 0px 50px;
+  }
+
+  .image-1 {
+    position: relative;
+
+    .shape {
+      position: absolute;
+      top: -8%;
+      left: 25%;
+      z-index: -1;
+    }
+  }
+
+  .image-2 {
+    margin-top: 55px;
+  }
+
+  .image-3 {
+    margin-top: 110px;
+    position: relative;
+
+    .shape {
+      position: absolute;
+      bottom: 25%;
+      right: -23%;
+      z-index: -1;
+    }
+  }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+      Landing 8 Hero Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.hero-area-l8 {
+  padding-bottom: 60px;
+
+  @include tablet {
+    padding-bottom: 80px;
+  }
+
+  @include desktops {
+    padding-bottom: 0;
+  }
+
+  &__image {
+    padding-top: 105px;
+    padding-bottom: 50px;
+
+    @include tablet {
+      padding-top: 125px;
+      padding-bottom: 60px;
+    }
+
+    @include desktops {
+      padding-top: 210px;
+      padding-bottom: 150px;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.hero-content {
+  &--8 {
+    @include tablet {
+      padding-right: 100px;
+    }
+
+    @include desktops {
+      padding-right: 0px;
+    }
+
+    @include large-desktops-mid {
+      padding-right: 65px;
+    }
+
+    @include extra-large-desktops {
+      padding-right: 155px;
+    }
+
+    h2 {
+      color: $haiti;
+      font-size: 40px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: -1.58px;
+      line-height: 50px;
+
+      @include mobile {
+        font-size: 44px;
+        line-height: 55px;
+      }
+
+      @include mobile-lg {
+        font-size: 48px;
+        line-height: 60px;
+      }
+    }
+
+    p {
+      color: $waterloo;
+      font-size: 20px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: -0.66px;
+      line-height: 34px;
+      margin-top: 40px;
+    }
+
+    &__btn {
+      .btn {
+        min-width: 180px;
+        height: 60px;
+        box-shadow: 21px 15px 23px rgba(65, 111, 244, 0.11);
+        border-radius: 33px;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        margin-top: 25px;
+      }
+    }
+  }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+      Landing 9 Hero Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.hero-area-l9 {
+  padding-top: 108px;
+
+  @include mobile-lg {
+    padding-top: 113px;
+  }
+
+  @include tablet {
+    padding-top: 125px;
+  }
+
+  @include desktops {
+    padding-top: 0px;
+  }
+}
+
+.hero-image {
+  position: relative;
+
+  @include desktops {
+    &:after {
+      position: absolute;
+      content: "";
+      background: #0d152e;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0.5;
+      z-index: 0;
+    }
+  }
+
+  @include desktops {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    width: 45%;
+    height: 100%;
+    background-position: center;
+
+    & img {
+      display: none;
+    }
+  }
+
+  @include large-desktops {
+    width: 42%;
+  }
+
+  @include extra-large-desktops {
+    width: 38%;
+    background-position: 100%;
+  }
+
+  .video-icon {
+    height: 96px;
+    width: 96px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+    @include desktops {
+      left: initial;
+      right: 0;
+      top: 50%;
+      transform: translate(50%, -50%);
+    }
+
+    i {
+      width: 66px;
+      height: 66px;
+      color: $primary;
+      box-shadow: 0 14px 25px rgba(132, 132, 132, 0.16);
+      background-color: $white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 66px;
+      position: relative;
+    }
+
+    &:after {
+      position: absolute;
+      content: "";
+      background: $primary;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      opacity: 0.3;
+      border-radius: 50%;
+      z-index: -1;
+    }
+  }
+}
+
+.content {
+  &--l9-1 {
+    position: relative;
+    padding: 30px 0px 60px 0px;
+
+    @include tablet {
+      padding: 50px 0px 80px 0px;
+    }
+
+    @include desktops {
+      padding: 230px 0px 190px 160px;
+    }
+
+    @include large-desktops {
+      padding: 230px 160px 190px 160px;
+    }
+
+    @include large-desktops-mid {
+      padding: 230px 160px 190px 160px;
+    }
+
+    @include extra-large-desktops {
+      padding: 230px 225px 190px 190px;
+    }
+
+    &__text-box {
+      .badge {
+        white-space: inherit;
+        width: 100%;
+
+        @include mobile {
+          white-space: nowrap;
+          width: 400px;
+        }
+
+        h6 {
+          font-size: 14px;
+          font-weight: 400;
+          font-style: normal;
+          letter-spacing: -0.46px;
+          line-height: normal;
+          padding: 6px;
+          border-radius: 10px;
+
+          @include mobile {
+            border-radius: 30px;
+          }
+        }
+
+        &-offer {
+          padding: 0px 15px !important;
+          border-radius: 30px;
+        }
+
+        & span {
+          padding: 0px 12px 0px 10px;
+
+          @include mobile {
+            padding: 0px 12px 0px 15px;
+          }
+        }
+      }
+
+      h2 {
+        color: $white;
+        font-size: 40px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -1.88px;
+        line-height: 50px;
+        margin-top: 13px;
+
+        @include mobile-lg {
+          font-size: 54px;
+          line-height: 65px;
+        }
+
+        @include tablet {
+          font-size: 60px;
+          line-height: 72px;
+        }
+      }
+
+      p {
+        color: $lynch;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: 34px;
+        margin-top: 20px;
+      }
+    }
+
+    &__form {
+      width: 100%;
+      margin-top: 30px;
+
+      @include tablet {
+        margin-top: 40px;
+      }
+
+      @include desktops {
+        width: 400px;
+        margin-top: 32px;
+      }
+
+      h4 {
+        margin-bottom: 19px;
+      }
+
+      .form-control {
+        color: #81838c;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        height: 61px;
+        border-radius: 30px;
+        background-color: $white;
+        padding-left: 27px;
+      }
+
+      .btn {
+        width: 100%;
+        height: 60px;
+        border-radius: 30px;
+        background-color: $primary;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        margin-top: 10px;
+
+        @include mobile-lg {
+          width: 120px;
+          height: 41px;
+          margin-left: -140px;
+        }
+      }
+    }
+  }
+}

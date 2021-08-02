@@ -1,0 +1,733 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         Landing-2 CTA Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.cta-area {
+    position: relative;
+
+    .cta-content {
+        padding: 50px 0px 0px 0px;
+
+        @include tablet {
+            padding: 70px 0px 0px 0px;
+        }
+
+        @include desktops {
+            padding: 132px 0px 130px 0px;
+        }
+
+        @include large-desktops {
+            padding: 132px 140px 130px 0px;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -1.58px;
+            line-height: 47px;
+
+            @include mobile-lg {
+                font-size: 48px;
+                line-height: 60px;
+            }
+
+        }
+
+        .cta-area-btn-group {
+            margin: 33px -8px -20px -8px;
+
+            a {
+                margin: 0px 8px 20px 8px;
+                display: inline-block;
+            }
+        }
+    }
+
+    .cta-area-image-group {
+        padding-top: 50px;
+        margin-left: 0px;
+        text-align: center;
+
+        @include desktops {
+            padding-top: 100px;
+        }
+
+        @include large-desktops {
+            margin-left: 90px;
+        }
+
+        @include large-desktops-mid {
+            margin-left: 185px;
+        }
+
+        .image-1 {
+            position: relative;
+            bottom: 0;
+            z-index: 1;
+
+            @include desktops {
+                position: absolute;
+            }
+
+            & img {
+                width: 100%;
+
+                @include mobile {
+                    width: initial;
+                }
+            }
+
+
+        }
+
+        .image-2 {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: 0;
+
+            & img {
+                @include mobile-xs {
+                    display: none;
+                }
+
+                @include mobile {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         Landing-3 CTA Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.cta-area-l3-1 {
+    padding: 45px 0px 55px 0px;
+    position: relative;
+
+    @include tablet {
+        padding: 55px 0px 65px 0px;
+    }
+
+    @include desktops {
+        padding: 75px 0px 85px 0px;
+    }
+}
+
+.cta-l3-image-group {
+    .image-1 {
+        position: absolute;
+        top: 20%;
+        left: 4%;
+
+        @include desktops {
+            left: 13%;
+        }
+
+    }
+
+    .image-2 {
+        position: absolute;
+        bottom: 14%;
+        left: 3%;
+
+        @include desktops {
+            bottom: 14%;
+            left: 3%;
+        }
+    }
+
+    .image-3 {
+        position: absolute;
+        bottom: 25%;
+        left: 22%;
+
+        @include desktops {
+            bottom: 29%;
+            left: 30%;
+        }
+    }
+
+    .image-4 {
+        position: absolute;
+        bottom: 24%;
+        right: 24%;
+
+        @include desktops {
+            right: 31%;
+        }
+    }
+
+    .image-5 {
+        position: absolute;
+        bottom: 13%;
+        right: 7%;
+
+        @include desktops {
+            bottom: 26%;
+            right: 17%;
+        }
+    }
+
+    .image-6 {
+        position: absolute;
+        top: 20%;
+        right: 4%;
+
+        @include desktops {
+            right: 15%;
+        }
+    }
+
+    .image-7 {
+        position: absolute;
+        top: 4%;
+        right: 17%;
+
+        @include desktops {
+            top: 10%;
+            right: 30%;
+        }
+    }
+}
+
+.cta-l3-content {
+    h2 {
+        color: $white;
+        font-size: 36px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -1.58px;
+        line-height: 48px;
+
+        @include mobile-lg {
+            font-size: 42px;
+            line-height: 54px;
+        }
+
+        @include tablet {
+            font-size: 48px;
+            line-height: 60px;
+        }
+
+    }
+
+    .btn {
+        width: 180px;
+        height: 60px;
+        border-radius: 7px;
+        background-color: $primary;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        margin-top: 43px;
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         Landing-4 CTA Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.contact-form-area-l4 {
+    position: relative;
+    z-index: 1;
+    padding-top: 45px;
+
+    @include tablet {
+        padding-top: 65px;
+    }
+
+    @include desktops {
+        padding-top: 115px;
+    }
+
+
+    &:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: $primary;
+        opacity: 0.93;
+        z-index: -1;
+    }
+
+    .section__heading {
+        h2 {
+            color: $white;
+            margin-bottom: 27px;
+        }
+
+        p {
+            color: $white;
+
+
+            @include tablet {
+                padding: 0px 40px;
+            }
+        }
+    }
+}
+
+.contact-form-l4 {
+    margin: 40px 0px 0px 0px;
+
+    @include tablet {
+        margin: 50px 0px 0px 0px;
+    }
+
+    @include desktops {
+        margin: 78px 0px 0px 0px;
+    }
+
+
+    .form-control {
+        width: 100%;
+        height: 60px;
+        border-radius: 69px;
+        background-color: $white;
+        color: $waterloo;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        padding-left: 25px;
+    }
+
+    &__btn {
+        .btn {
+            width: 100%;
+            height: 60px;
+            border-radius: 69px;
+            background-color: $secondary;
+            color: $white;
+            font-size: 16px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+        }
+
+    }
+
+    .row {
+        margin-bottom: -30px;
+    }
+
+    .col-lg-4 {
+        margin-bottom: 30px;
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         Landing-6 CTA Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.cta-area-6 {
+    padding-top: 60px;
+
+
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+
+    @include desktops {
+        padding-top: 130px;
+        padding-bottom: 55px;
+    }
+
+    .cta-area-bg {
+        position: relative;
+        z-index: 2;
+        border-radius: 16px;
+        padding: 15px;
+
+        @include mobile {
+            padding: 65px 45px 45px 45px;
+        }
+
+        @include desktops {
+            padding: 40px 50px 45px 50px;
+        }
+
+        @include large-desktops {
+            padding: 70px 60px 70px 80px;
+        }
+
+        &::before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            background: $haiti;
+            top: 0px;
+            left: 0px;
+            border-radius: 15px;
+            z-index: -1;
+        }
+
+        @include tablet {
+            &::after {
+                position: absolute;
+                content: "";
+                width: 100%;
+                height: 100%;
+                background: $catalinablue;
+                opacity: 0.07;
+                top: 30px;
+                left: 30px;
+                border-radius: 15px;
+                z-index: -2;
+            }
+        }
+
+        .cta-content {
+            position: relative;
+            margin-bottom: 40px;
+
+            @include tablet {
+                margin-bottom: 50px;
+            }
+
+            @include desktops {
+                margin-bottom: 0;
+            }
+
+            i {
+                font-size: 35px;
+                color: $rhino;
+
+                @include mobile {
+                    font-size: 70px;
+                }
+            }
+
+            .left-quote {
+                position: absolute;
+                left: -0px;
+                top: -8px;
+                z-index: -1;
+
+                @include mobile {
+                    left: -28px;
+                    top: -33px;
+                }
+            }
+
+            .right-quote {
+                position: absolute;
+                margin-left: -22px;
+                margin-top: 11px;
+                z-index: -1;
+            }
+
+
+            p {
+                color: $white;
+                font-size: 30px;
+                font-weight: 500;
+                font-style: normal;
+                letter-spacing: -1.39px;
+                line-height: 45px;
+
+                @include desktops {
+                    font-size: 28px;
+                }
+
+                @include large-desktops {
+                    font-size: 30px;
+                }
+
+                @include extra-large-desktops {
+                    padding-right: 120px;
+                }
+            }
+
+            .user-identity {
+                margin-top: 25px;
+
+                h4 {
+                    color: $white;
+                    font-size: 20px;
+                    font-weight: 500;
+                    font-style: normal;
+                    letter-spacing: -0.66px;
+                    line-height: 25px;
+                }
+
+                span {
+                    color: $lynch;
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-style: normal;
+                    letter-spacing: -0.53px;
+                    line-height: 25px;
+                }
+            }
+        }
+
+        .cta-main-image {
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         Landing-7 CTA Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.cta-area-l7 {
+    position: relative;
+
+    .cta-content-l7 {
+        padding: 30px 0px 0px 0px;
+        @include mobile {
+            padding: 50px 0px 0px 30px;
+        }
+      
+        @include tablet {
+            padding: 70px 0px 0px 30px;
+        }
+
+        @include desktops {
+            padding: 110px 0px 120px 50px;
+        }
+
+        @include large-desktops {
+            padding: 110px 10px 120px 75px;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -1.58px;
+            line-height: 47px;
+
+            @include mobile-lg {
+                font-size: 48px;
+                line-height: 60px;
+            }
+
+        }
+
+        .cta-area-btn-group {
+            margin: 33px -8px -20px -8px;
+
+            a {
+                margin: 0px 8px 20px 8px;
+                display: inline-block;
+            }
+        }
+    }
+
+    .cta-l7-bg {
+        border-radius: 15px;
+        background-color: $primary;
+    }
+
+    .cta-area-image-group-l7 {
+        padding-top: 50px;
+        margin-left: 0px;
+        text-align: center;
+
+        .image-1 {
+            position: relative;
+            z-index: 1;
+
+            @include desktops {
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                z-index: 1;
+                transform: translatex(-50%);
+            }
+
+            & img {
+                width: 100%;
+
+                @include mobile {
+                    width: initial;
+                }
+            }
+        }
+
+        .image-2 {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            z-index: 0;
+            transform: translatex(-50%);
+
+            & img {
+                @include mobile-xs {
+                    display: none;
+                }
+
+                @include mobile {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         Landing-8 CTA Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.contact-area-l8-1 {
+    padding-bottom: 57px;
+
+    @include tablet {
+        padding-bottom: 77px;
+    }
+
+    @include desktops {
+        padding-bottom: 140px;
+    }
+}
+
+.cta-area-l8-1 {
+    background: $white;
+    border-radius: 23px;
+    padding: 17px 30px 30px 30px;
+
+    @include tablet {
+        padding: 30px 30px 35px 30px;
+    }
+
+    @include desktops {
+        padding: 35px 60px 40px 60px;
+    }
+
+    &__content {
+
+
+        @include extra-large-desktops {
+            padding-right: 75px;
+        }
+
+        h2 {
+            color: $haiti;
+            font-size: 34px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -1.12px;
+            line-height: 50px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: $lynch;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: 28px;
+            margin-bottom: 0;
+        }
+    }
+
+    &__btn {
+        .btn {
+            width: 218px;
+            height: 60px;
+            border-radius: 35px;
+            background-color: $primary;
+            color: $white;
+            font-size: 16px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+            margin-top: 20px;
+
+            @include tablet {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         Landing-9 CTA Area
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.cta-area-l9-1 {
+    margin-top: 40px;
+    background: $primary;
+    border-radius: 23px;
+    padding: 17px 30px 30px 30px;
+
+    @include tablet {
+        margin-top: 50px;
+        padding: 30px 30px 35px 30px;
+    }
+
+    @include desktops {
+        margin-top: 80px;
+        padding: 70px 65px 66px 65px;
+    }
+
+    &__content {
+
+
+        @include extra-large-desktops {
+            padding-right: 75px;
+        }
+
+        h2 {
+            color: $white;
+            font-size: 30px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -1.12px;
+            line-height: 50px;
+
+            @include tablet {
+                font-size: 34px;
+            }
+        }
+
+    }
+
+    &__btn {
+        .btn {
+            width: 180px;
+            height: 60px;
+            border-radius: 30px;
+            background-color: $secondary;
+            color: $white;
+            font-size: 16px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+            margin-top: 20px;
+
+            @include tablet {
+                margin-top: 0;
+            }
+        }
+    }
+}

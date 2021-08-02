@@ -1,0 +1,313 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+    FAQ landing-9
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.faq-area-l9-1 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-bottom: 115px;
+    }
+
+    .section__heading-2 {
+        h2 {
+            color: $white;
+        }
+
+        p {
+            color: $lynch;
+        }
+    }
+}
+
+
+.faq-l9-1 {
+
+    @include desktops {
+        padding-top: 58px;
+    }
+
+    .accordion li {
+        position: relative;
+        list-style: none;
+        border-bottom: 1px solid #1c2b57;
+        padding: 30px 0px 32px 0px;
+    }
+
+    .accordion li p {
+        display: none;
+        padding: 20px 15px 27px 0px;
+        margin-bottom: 6px;
+        color: $lynch;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: 28px;
+    }
+
+    .accordion a {
+
+        width: 100%;
+        display: block;
+        cursor: pointer;
+        text-decoration: none;
+        color: $white;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: normal;
+        position: relative;
+        padding-right: 20px;
+
+        &:hover {
+            color: $white;
+        }
+
+    }
+
+    .accordion li .active {
+        color: $white !important;
+    }
+
+    .accordion .active:after {
+        border-right: 2px solid$white !important;
+        border-bottom: 2px solid$white !important;
+
+    }
+
+    .accordion a:after {
+        width: 8px;
+        height: 8px;
+        border-right: 2px solid$white;
+        border-bottom: 2px solid$white;
+        position: absolute;
+        right: 0px;
+        content: " ";
+        top: 8px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+
+
+    .accordion a.active:after {
+        transform: rotate(225deg);
+        -webkit-transform: rotate(225deg);
+        -moz-transform: rotate(225deg);
+        -ms-transform: rotate(225deg);
+        -o-transform: rotate(225deg);
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+    FAQ main Page
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+
+.faq-main-banner {
+    padding: 98px 0px 40px 0px;
+  
+    @include tablet {
+        padding:80px 0px 60px 0px;
+    }
+
+    @include desktops {
+        padding: 113px 0px 80px 0px;
+    }
+
+    h2 {
+        color: $haiti;
+        font-size: 36px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -1.98px;
+        line-height: normal;
+
+        @include mobile-lg {
+            font-size: 40px;
+        }
+
+        @include tablet {
+            font-size: 48px;
+        }
+
+        @include desktops {
+            font-size: 60px;
+        }
+    }
+}
+
+.faq-main-area {
+    padding-bottom: 60px;
+
+    @include tablet {
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-bottom: 130px;
+    }
+}
+
+.faq-main-tab-area {
+    ul {
+        li {
+            a {
+                text-decoration: none;
+                color: $haiti;
+                font-size: 16px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: -0.53px;
+                line-height: normal;
+                display: inline-block;
+                margin-bottom: 23px
+            }
+
+            &.active {
+                a {
+                    color: $primary;
+                    font-weight: 700;
+                }
+
+            }
+
+        }
+    }
+}
+
+.faq-single-all-items {
+    margin-bottom: -60px;
+    padding-top: 10px;
+
+    @include tablet {
+        padding-top: 20px;
+    }
+
+    @include desktops {
+        padding-top: 0;
+    }
+}
+
+.faq-main-area-single {
+    margin-bottom: 30px;
+    @include tablet {
+        margin-bottom: 40px;
+    }
+  
+    @include desktops {
+        margin-bottom: 60px;
+    }
+    h2 {
+        color: $haiti;
+        font-size: 24px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.79px;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+
+    .accordion li {
+        position: relative;
+        list-style: none;
+        border-radius: 5px;
+        border: 1px solid $porcelain;
+        padding: 15px 20px 15px 15px;
+        margin-bottom: 10px;
+
+        &.active {
+            background:#f8fafc;
+        }
+    }
+
+    .accordion li p {
+        display: none;
+        padding: 20px 15px 0px 0px;
+        color: $lynch;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: 28px;
+        margin-bottom: 0;
+    }
+
+    .accordion a {
+
+        width: 100%;
+        display: block;
+        cursor: pointer;
+        text-decoration: none;
+        color: $haiti;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        position: relative;
+        padding-right: 20px;
+
+
+
+    }
+
+    .accordion li .active {
+        color: $haiti !important;
+    }
+
+    .accordion .active:after {
+        border-right: 2px solid$primary !important;
+        border-bottom: 2px solid$primary !important;
+
+    }
+
+    .accordion a:after {
+        width: 8px;
+        height: 8px;
+        border-right: 2px solid$primary;
+        border-bottom: 2px solid$primary;
+        position: absolute;
+        right: 0px;
+        content: " ";
+        top: 8px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+
+
+    .accordion a.active:after {
+        transform: rotate(225deg);
+        -webkit-transform: rotate(225deg);
+        -moz-transform: rotate(225deg);
+        -ms-transform: rotate(225deg);
+        -o-transform: rotate(225deg);
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+
+}

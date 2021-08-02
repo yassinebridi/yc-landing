@@ -1,0 +1,5 @@
+export { default as BreadCrumbSection } from "./Breadcrumb"
+export { default as VideoSection } from "./VideoSection"
+export { default as FeatureSection } from "./Feature"
+export { default as TestimonialSection } from "./Testimonial"
+export { default as JobSection } from "./Job"

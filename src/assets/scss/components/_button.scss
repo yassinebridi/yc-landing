@@ -1,0 +1,283 @@
+.btn {
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    min-width: 130px;
+    line-height: 28px;
+    letter-spacing: -0.53px;
+    padding: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        color: $white !important;
+    }
+
+    &:focus {
+        box-shadow: 0;
+    }
+
+    &.focus {
+        box-shadow: 0;
+    }
+
+    &.btn-medium {
+        min-width: 160px;
+        height: 48px;
+        line-height: 36px;
+    }
+
+    &.btn--lg {
+        min-width: 181px;
+        height: 61px;
+    }
+
+    &.btn-xl {
+        min-width: 180px;
+        height: 60px;
+        border-radius: 5px;
+    }
+
+    &.btn--xxl {
+        min-width: 194px;
+        height: 60px;
+        border-radius: 5px;
+    }
+
+    &.with-icon {
+
+        i {
+            margin-left: -5px;
+            margin-right: 3px;
+            font-size: 16px;
+            margin-top: 2px;
+        }
+    }
+
+    &--reset {
+        background: transparent;
+        border: 0;
+    }
+}
+
+.btn--link {
+    color: $primary!important;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    min-width: 88px;
+    letter-spacing: 1.63px;
+    line-height: normal;
+    height: 22px;
+    padding: 0;
+    border-radius: 0;
+    border-bottom: 2px solid $primary !important;
+    padding: 0px 0px 15px 0px !important;
+    margin-top: 40px;
+    &:hover {
+        color: $primary !important;
+    }
+
+}
+
+
+
+.landing-1-menu {
+    .log-in-btn {
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        height: 46px;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .sign-in-btn {
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        min-width: 111px;
+        height: 46px;
+        border-radius: 6px;
+        border: 1px solid $white;
+
+        &:hover {
+            color: $white;
+        }
+    }
+}
+
+.landing-2-menu {
+    .sign-in-btn {
+        background-color: $primary;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        min-width: 111px;
+        height: 46px;
+        border-radius: 6px;
+
+        &:hover {
+            color: $white;
+        }
+    }
+}
+
+.landing-3-menu {
+    .log-in-btn {
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        border: 1px solid $white;
+        height: 46px;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        margin-right: 30px;
+    }
+
+    .sign-in-btn {
+        background-color: $primary;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        min-width: 111px;
+        height: 46px;
+        border-radius: 6px;
+
+
+
+        &:hover {
+            color: $white;
+        }
+    }
+}
+
+.landing-4-menu {
+    .send-request-btn {
+        min-width: 166px;
+        height: 50px;
+        border-radius: 33px;
+        background-color: $primary;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        margin-left: 15px
+
+    }
+}
+
+.landing-5-menu {
+    .sign-in-btn {
+        border: 1px solid #ffffff;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        min-width: 111px;
+        height: 46px;
+        border-radius: 23px;
+        min-width: 110px;
+       
+
+        &:hover {
+            color: $white;
+        }
+    }
+}
+.landing-6-menu {
+    .log-in-btn {
+        min-width: 120px;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        border: 1px solid $white;
+        height: 46px;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        margin-right: 30px;
+    }
+
+    .sign-in-btn {
+        min-width: 120px;
+        background-color: $primary;
+        color: $white;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: center;
+        min-width: 111px;
+        height: 46px;
+        &:hover {
+            color: $white;
+        }
+    }
+}
+
+.landing-inner-menu {
+    .log-in-btn {
+        color: $haiti;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        min-width: 111px;
+        height: 46px;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        text-align: center;
+        &:hover{
+            color: $haiti !important;
+        }
+       
+    }
+    &.reveal-header{
+        .log-in-btn {
+            &:hover{
+                color: $white !important;
+            }
+        }
+    }
+
+    .sign-in-btn {
+        color: $white;
+        background-color: $primary;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+        text-align: center;
+        height: 46px;
+        border-radius: 6px;
+        &:hover {
+            color: $white;
+        }
+    }
+}

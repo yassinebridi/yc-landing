@@ -1,0 +1,749 @@
+.focus-reset:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         landing-1 testimonial 
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+        .mobile-testimonial{
+            padding-top: 60px;
+            padding-bottom: 60px;
+            @include tablet {
+                padding-top: 80px;
+                padding-bottom: 80px;
+            }
+        
+            @include desktops {
+                padding-top: 130px;
+                padding-bottom: 130px;
+            }
+            .testimonial-area-bg {
+                position: relative;
+                z-index: 2;
+                border-radius: 16px;
+                padding: 15px;
+        
+                @include mobile {
+                    padding: 65px 45px 45px 45px;
+                }
+        
+                @include desktops {
+                    padding: 40px 50px 45px 50px;
+                }
+        
+                @include large-desktops {
+                    padding: 70px 60px 70px 80px;
+                }
+        
+                &::before {
+                    position: absolute;
+                    content: "";
+                    width: 100%;
+                    height: 100%;
+                    background: $haiti;
+                    top: 0px;
+                    left: 0px;
+                    border-radius: 15px;
+                    z-index: -1;
+                }
+        
+                @include tablet {
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        width: 100%;
+                        height: 100%;
+                        background: $catalinablue;
+                        opacity: 0.07;
+                        top: 30px;
+                        left: 30px;
+                        border-radius: 15px;
+                        z-index: -2;
+                    }
+                }
+        
+                .testimonial-content {
+                    position: relative;
+                    margin-bottom: 40px;
+        
+                    @include tablet {
+                        margin-bottom: 50px;
+                    }
+        
+                    @include desktops {
+                        margin-bottom: 0;
+                    }
+        
+                    i {
+                        font-size: 35px;
+                        color: $rhino;
+        
+                        @include mobile {
+                            font-size: 70px;
+                        }
+                    }
+        
+                    .left-quote {
+                        position: absolute;
+                        left: -0px;
+                        top: -8px;
+                        z-index: -1;
+        
+                        @include mobile {
+                            left: -28px;
+                            top: -33px;
+                        }
+                    }
+        
+                    .right-quote {
+                        position: absolute;
+                        margin-left: -22px;
+                        margin-top: 11px;
+                        z-index: -1;
+                    }
+        
+        
+                    p {
+                        color: $white;
+                        font-size: 30px;
+                        font-weight: 500;
+                        font-style: normal;
+                        letter-spacing: -1.39px;
+                        line-height: 45px;
+        
+                        @include desktops {
+                            font-size: 28px;
+                        }
+        
+                        @include large-desktops {
+                            font-size: 30px;
+                        }
+        
+                        @include extra-large-desktops {
+                            padding-right: 120px;
+                        }
+                    }
+        
+                    .user-identity {
+                        margin-top: 25px;
+        
+                        h4 {
+                            color: $white;
+                            font-size: 20px;
+                            font-weight: 500;
+                            font-style: normal;
+                            letter-spacing: -0.66px;
+                            line-height: 25px;
+                        }
+        
+                        span {
+                            color: $lynch;
+                            font-size: 16px;
+                            font-weight: 500;
+                            font-style: normal;
+                            letter-spacing: -0.53px;
+                            line-height: 25px;
+                        }
+                    }
+                }
+        
+                .testimonial-main-image {
+                    img {
+                        width: 100%;
+                    }
+                }
+        
+            }
+        }
+.testimonial-area {
+    background-position: 43% 100% !important;
+    background-repeat: no-repeat !important;
+
+
+    @include mobile-xs {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+    @include tablet {
+        padding-bottom: 80px;
+        padding-top: 60px;
+    }
+
+    @include desktops {
+        padding-top: 115px;
+        background-position: 43% 65%;
+    }
+
+    @include large-desktops {
+        padding-bottom: 100px;
+        background-position: 43% 100%;
+    }
+
+    .testimonial--slider{
+       padding-bottom: 80px; 
+    }
+
+    .swiper-wrapper {
+        @include mobile-xs {
+            padding-top: 20px;
+        }
+
+        @include tablet {
+            margin-left: -25vw;
+            padding-top: 50px;
+        }
+
+        @include desktops {
+            margin-left: -24vw;
+        }
+
+        @include large-desktops {
+            margin-left: -23vw;
+        }
+
+        @include large-desktops-mid {
+            margin-left: -26vw;
+        }
+        @include extra-large-desktops {
+            margin-left: -18vw;
+        }
+    }
+
+    .swiper-navigation i {
+        height: 40px;
+        width: 40px;
+        line-height: 37px;
+        border: 2px solid $haiti;
+        border-radius: 50%;
+        text-align: center;
+        margin: 0px 5px;
+    }
+
+}
+
+
+.tesimonial-card {
+    padding: 40px;
+    box-shadow: 14px 18px 69px rgba(186, 186, 186, 0.16);
+    border-radius: 10px;
+    background-color: $white;
+
+
+    img {
+        margin-right: 25px;
+    }
+
+    h4 {
+        color: $haiti;
+        font-size: 20px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: normal;
+    }
+
+    span {
+        color: #9ea1ab;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+    }
+
+    p {
+        color: $haiti;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: 34px;
+        margin-top: 25px;
+    }
+
+    .testimonial__star {
+        margin: 30px -4px 0px -4px;
+
+        i {
+            font-size: 24px;
+            color: #fbb040;
+            margin: 0px 4px;
+        }
+    }
+
+
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         landing-2 testimonial 
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.testimonial-area-2 {
+    padding-top: 80px;
+    padding-bottom: 90px;
+
+    @include tablet {
+        padding-top: 100px;
+        padding-bottom: 110px;
+    }
+
+    @include desktops {
+        padding-top: 120px;
+    }
+
+    @include large-desktops {
+        padding-top: 155px;
+    }
+
+    .quote-image {
+        position: absolute;
+        top: -4%;
+        right: 28%;
+        z-index: 1;
+    }
+
+    .l2-testimonial-text-slider {
+        .content {
+            margin-top: 45px;
+
+            @include desktops {
+                margin-top: 0px;
+            }
+        }
+
+        br {
+            display: none;
+
+            @include tablet {
+                display: block;
+            }
+        }
+
+
+
+        h2 {
+            color: $haiti;
+            font-size: 36px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -1.58px;
+            line-height: 47px;
+            margin-bottom: 40px;
+            @include mobile-lg {
+                font-size: 48px;
+                line-height: 60px;
+            }
+        }
+
+        p {
+            color: $haiti;
+            font-size: 20px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.66px;
+            line-height: 34px;
+            margin-top: 30px;
+
+            @include desktops {
+                margin-right: 32px;
+            }
+
+            @include large-desktops {
+                margin-right: 42px;
+            }
+
+            @include large-desktops-mid {
+                margin-right: 132px;
+            }
+        }
+
+        .star-icon {
+            margin: 0px -4px;
+
+            .fas {
+                color: #ffa136;
+                margin: 0px 4px;
+            }
+        }
+
+
+        .client-identity {
+            margin-top: 35px;
+
+            .icon {
+                width: 70px;
+                height: 70px;
+                line-height: 70px;
+                text-align: center;
+                border-radius: 4px;
+                background-color: $white;
+                margin-right: 15px;
+                border: 1px solid #e6e6e6;
+            }
+
+            .fas {
+                color: #e0565b;
+                font-size: 25px;
+            }
+
+            h6 {
+                color: $haiti;
+                font-size: 20px;
+                font-weight: 700;
+                font-style: normal;
+                letter-spacing: -0.66px;
+                line-height: normal;
+                text-align: left;
+            }
+
+            span {
+                color: #9ea1ab;
+                font-size: 16px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: -0.53px;
+                line-height: normal;
+            }
+        }
+    }
+
+    .slick-slide img {
+        border-radius: 30px 30px 100px 30px;
+    }
+
+    .next-prev-btn3 {
+        position: relative;
+        margin-top: 65px;
+
+        span {
+            cursor: pointer;
+            color: #81838c;
+            font-size: 16px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: 30px;
+            border-bottom: 2px solid #81838c;
+
+            &.prev3 {
+                position: absolute;
+                left: 0;
+
+            }
+
+            &.next3 {
+                position: absolute;
+                right: 0;
+
+            }
+        }
+
+        .slick-arrow {
+            &.active {
+                color: $primary !important;
+                border-bottom: 2px solid $primary !important;
+            }
+        }
+
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         landing-4 testimonial 
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.testimonial-area-l4{
+    padding: 45px 0px 0px 0px;
+    @include tablet {
+        padding: 65px 0px 0px 0px;
+    }
+  
+    @include desktops {
+        padding: 115px 0px 0px 0px;
+    }
+}
+
+.testimonial-l4-slider{
+    position: relative;
+    padding: 30px 0px 60px 0px;
+    background-size: 100% !important;
+    @include tablet {
+        padding: 45px 0px 80px 0px;
+    }
+  
+    @include desktops {
+        padding: 65px 0px 100px 0px;
+    }
+    .single-item{
+        margin: 0px 40px;
+    }
+    &__quote{
+        .quote-left{
+            position: absolute;
+            top: -30px;
+            left: -35px;
+            color: $santas-gray;
+        }
+        .quote-right{
+            position: absolute;
+            bottom: -30px;
+            right: 0;
+            color: $santas-gray;
+        }
+    }
+    &__star{
+        margin: 0px -5px;
+        margin-bottom: 30px;
+        i{
+            color: $orange;
+            margin: 0px 5px;
+        }
+    }
+    &__content{
+        position: relative;
+        p{
+            color: $haiti;
+            font-size: 22px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.73px;
+            line-height: 37px;
+        }
+    }
+    &__name{
+        span{
+            color: #182748;
+            font-size: 18px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.59px;
+            line-height: normal;
+            display: inline-block;
+            margin-top: 17px;
+        }
+    }
+}
+
+.testimonial-l4-slider{
+
+    .slick-dots li button {
+        background-color: transparent;
+        border: none;
+        color: transparent;
+        cursor: pointer;
+    }
+    .slick-dots li button:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    .slick-dots li.slick-active {
+        background-color: $primary;
+    }
+    .slick-dots {
+        list-style: none;
+        display: flex!important;
+        padding: 0;
+        margin: 45px 0 0;
+        justify-content: center;
+    }
+    .slick-dots li {
+        background-color: #d8d8d8;
+        width: 10px;
+        height:10px;
+        border-radius: 50%;
+        margin: 5px;
+        -webkit-transition: .4s;
+        transition: .4s;
+        cursor: pointer;
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         landing-9 testimonial 
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.testimonial-area-l9-1 {
+    &--content {
+        background-position: center !important;
+        padding: 40px 0px 60px 0px;
+        margin-bottom: 45px;
+        @include mobile {
+            margin-bottom: 135px;
+        }
+        @include tablet {
+            margin-bottom: 240px;
+        }
+
+        @include desktops {
+            padding: 130px 0px 240px 0px;
+            margin-bottom: 350px;
+        }
+
+        @include extra-large-desktops {
+            margin-bottom: 380px;
+        }
+    }
+
+
+}
+
+.testimonial-slider-l9-1 {
+    .single-item {
+        box-shadow: 0 -1px 35px rgba(59, 59, 59, 0.16);
+        border-radius: 12px;
+        background-color: $white;
+        padding: 0px 40px 32px 40px;
+        margin: 55px 25px;
+    }
+
+    .slider-image {
+        & img {
+            display: inline-block;
+            margin-bottom: 20px;
+            margin-top: -35px;
+        }
+    }
+
+    .slider-content {
+        p {
+            color: $haiti;
+            font-size: 16px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: 28px;
+            margin-top: -12px;
+        }
+        i{
+            font-size: 25px;
+            color: #eaeaea;
+        }
+    }
+
+    .user-identity {
+        span {
+            color: #f7b26d;
+            font-size: 16px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+        }
+    }
+}
+
+.slider-l9-main{
+    position: relative;
+}
+
+.l9-slider-arrow-2 {
+    & i {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        color: $primary;
+        background: rgba(65, 111, 244, 0.2);
+        border-radius: 50%;
+        margin: 0px 6px;
+        cursor: pointer;
+    }
+    .prev9-1{
+        position: absolute;
+        top: 45%;
+        z-index: 1;
+    }
+    .next9-1{
+        position: absolute;
+        top: 45%;
+        right: 0;
+        z-index: 1;
+    }
+}
+
+.testimonial-l9-image-group{
+    position: relative;
+    .image-1{
+        position: absolute;
+        display: none;
+        @include tablet {
+            display: block;
+            top: 0;
+            left: 0%;
+        }
+      
+        @include desktops {
+            top: -30px;
+            left: 22%;
+        }
+      
+    }
+    .image-2{
+        position: absolute;
+        display: none;
+        @include tablet {
+            display: block;
+            top: 160px;
+            left: 0%;
+        }
+      
+        @include desktops {
+            top: 115px;
+        left: 12%;
+        }
+      
+      }
+      .image-3{
+        position: absolute;
+        display: none;
+        @include tablet {
+            display: block;
+            top: 335px;
+            left: 7%;
+        }
+      
+        @include desktops {
+            top: 320px;
+            left: 25%;
+        }
+      
+      }
+      .image-4{
+        position: absolute;
+        display: none;
+        @include tablet {
+            display: block;
+            top: 300px;
+            right: 0%;
+        }
+      
+        @include desktops {
+            right: 19%;
+        }
+      
+      }
+      .image-5{
+        position: absolute;
+        display: none;
+        @include tablet {
+            display: block;
+            top: -16px;
+            right: 0%;
+        }
+      
+        @include desktops {
+            top: 17px;
+            right: 13%;
+        }
+      
+      }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+         landing- testimonial 
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/

@@ -1,0 +1,233 @@
+/*Home 8 search form*/
+
+.domain-area {
+    padding-top: 50px;
+    padding-bottom: 57px;
+
+    @include tablet {
+        padding-top: 70px;
+        padding-bottom: 77px;
+    }
+
+    @include desktops {
+        padding-top: 110px;
+        padding-bottom: 120px;
+    }
+
+    &__heading {
+        h2 {
+            color: $haiti;
+            font-size: 40px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -1.58px;
+            line-height: 50px;
+
+            @include mobile-lg {
+                font-size: 48px;
+                line-height: 60px;
+            }
+        }
+    }
+}
+
+.domain-search-area {
+
+    @include extra-large-desktops {
+        padding: 0px 80px;
+    }
+
+    &__search-form {
+        width: 100%;
+        box-shadow: 0 31px 32px rgba(170, 170, 170, 0.16);
+        border-radius: 15px;
+        background-color: $white;
+        padding: 20px 15px 20px 15px;
+        margin-top: 20px;
+
+        @include tablet {
+            padding: 10px 10px 10px 30px;
+            border-radius: 45px;
+            margin-top: 45px;
+        }
+    }
+
+    &__input {
+        position: relative;
+
+        @include mobile-lg {
+            margin-right: 30px;
+        }
+
+        .form-control {
+            width: 100%;
+            border: 0;
+            color: $santas-gray;
+            font-size: 18px;
+            font-weight: 400;
+            font-style: normal;
+            padding-left: 0px;
+            letter-spacing: -0.59px;
+            line-height: normal;
+
+            @include mobile-lg {
+                width: 350px;
+            }
+
+            @include tablet {
+                width: 325px;
+            }
+
+            @include desktops {
+                padding-left: 10px;
+                width: 480px;
+            }
+
+            @include large-desktops {
+                width: 665px;
+            }
+
+            @include large-desktops-mid {
+                width: 685px;
+            }
+
+        }
+
+        @include tablet {
+            &:after {
+                position: absolute;
+                content: "";
+                background: $porcelain;
+                height: 90px;
+                width: 1px;
+                right: 0;
+                top: -27px;
+            }
+        }
+
+
+    }
+
+    &__dropdown {
+        display: inline-block;
+        width: 100%;
+
+        @include tablet {
+            width: initial;
+        }
+
+        .nice-select {
+            padding-left: 0;
+            width: 100%;
+
+            @include tablet {
+                width: 100px;
+            }
+
+            @include desktops {
+                width: 150px;
+            }
+
+            .list {
+                width: 100%;
+            }
+        }
+
+        span {
+            color: $santas-gray;
+            font-size: 18px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.59px;
+            line-height: normal;
+
+
+        }
+
+        ul {
+            li {
+                color: $santas-gray;
+                font-size: 18px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: -0.59px;
+                line-height: normal;
+            }
+        }
+    }
+
+    &__search-btn {
+        position: relative;
+        margin-top: 10px;
+
+        @include tablet {
+            margin-top: 00px;
+        }
+
+        .btn {
+            min-width: 100%;
+            height: 50px;
+            box-shadow: 21px 15px 23px rgba(65, 111, 244, 0.11);
+            border-radius: 45px;
+            background-color: $primary;
+            color: $white;
+            font-size: 16px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+
+            @include tablet {
+                min-width: 198px;
+                height: 70px;
+            }
+
+        }
+
+        i {
+            position: absolute;
+            font-size: 16px;
+            color: $white;
+            top: 50%;
+            left: 38px;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+
+}
+
+.domain-price-area {
+    margin-top: 30px;
+
+    @include mobile-lg {
+        margin-top: 40px;
+    }
+
+    &__single {
+        margin-bottom: -10px;
+
+        @include mobile-lg {
+            margin-bottom: 0px;
+        }
+
+        span {
+            color: $waterloo;
+            font-size: 16px;
+            font-weight: 700;
+            display: inline-block;
+            font-style: normal;
+            letter-spacing: -0.66px;
+            line-height: normal;
+            margin: 10px 15px;
+
+            @include mobile {
+                font-size: 20px;
+            }
+
+            @include mobile-lg {
+                margin: 0px;
+            }
+        }
+    }
+}

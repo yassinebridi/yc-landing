@@ -1,0 +1,66 @@
+{
+  "name": "appex-react-app",
+  "private": true,
+  "description": "A simple next template",
+  "version": "0.1.0",
+  "author": "contact@grayic.com",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "@n8tb1t/use-scroll-position": "^2.0.3",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "babel-plugin-styled-components": "^1.12.0",
+    "bootstrap": "5.0.0-beta1",
+    "file-loader": "^6.2.0",
+    "install": "^0.13.0",
+    "next": "10.0.1",
+    "next-fonts": "^1.4.0",
+    "polished": "^4.0.5",
+    "prop-types": "^15.7.2",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "npm:@hot-loader/react-dom",
+    "react-headroom": "^3.0.0",
+    "react-helmet": "^6.1.0",
+    "react-lazyload": "^3.1.0",
+    "react-masonry-css": "^1.0.14",
+    "react-modal-image": "^2.5.0",
+    "react-modal-video": "^1.2.6",
+    "react-scripts": "4.0.1",
+    "react-slick": "^0.27.13",
+    "sass": "^1.32.8",
+    "simple-react-lightbox": "^3.6.3",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.2.1",
+    "swiper": "^6.4.11",
+    "url-loader": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-plugin-macros": "^3.0.1",
+    "babel-plugin-styled-components": "^1.10.7",
+    "fs": "^0.0.1-security",
+    "imagemin-mozjpeg": "^9.0.0",
+    "next-optimized-images": "^2.6.2",
+    "prettier": "2.1.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

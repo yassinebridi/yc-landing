@@ -1,0 +1,36 @@
+
+@mixin dark-theme-mode{
+  --bg:                 #19191b;
+  --bg-2:                 #19191b;
+  --color-headings:    $white;
+  --color-texts:        rgba(255,255,255, 0.7);
+  --color-texts-2:        rgba(255,255,255, 1);
+  --color-texts-3:        rgba(255,255,255, 0.7);
+  --border-color:       rgba(255,255,255, 0.08);
+  --border-color-2:       rgba(255,255,255, 0.7);
+}
+@mixin light-theme-mode{
+  --bg:                   $white;
+  --bg-2:                  #f8f9fc;
+  --color-headings:      #25373f;
+  --color-texts:        rgba(37, 55, 63, 0.7);
+  --color-texts-2:       #3b4656;
+  --color-texts-3:      rgba(38, 39, 41, 0.7);
+  --border-color:       rgba(128, 138, 142, 0.2);
+  --border-color-2:       rgba(37, 55, 63, 0.1);
+}
+
+
+// #FCFDFE, #F4F7FA, #F8F8F8, #ECF2F7, #FDFDFF, 
+
+
+@mixin dark-mode {
+  [data-theme='dark'] & ,.dark-mode-texts & {
+      @content;
+  }
+}
+@mixin light-mode {
+  [data-theme='dark'] & ,.dark-mode-texts & {
+      @content;
+  }
+}

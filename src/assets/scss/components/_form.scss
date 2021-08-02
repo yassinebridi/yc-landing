@@ -1,0 +1,109 @@
+.check-input-control {
+  margin-bottom: 20px;
+
+  input:checked {
+    &~.checkbox {
+      background: $primary !important;
+      border-color: $primary;
+
+      &::after {
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        color:$white;
+        font-size: 11px;
+        text-align: center;
+        line-height: 20px;
+        font-weight: 700;
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+    }
+  }
+
+  .checkbox {
+    position: relative;
+    line-height: 1;
+    min-width: 20px;
+    max-width: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    border-radius: 50%;
+    background: #9ea1ab;
+    display: inline-block;
+    cursor: pointer;
+  
+  }
+
+  .checkbox-2{
+    border-radius: 5px;
+    border: 1px solid #b5b5b5;
+    background: $white;
+  
+  }
+}
+
+
+/*Checkout page radio button*/
+
+.gr-radio-input input:checked ~ label .round-indicator {
+  border: 1px solid #473bf0;
+  background: #fff;
+}
+.gr-radio-input input:checked ~ label .round-indicator:after {
+  opacity: 1;
+}
+.gr-radio-input{
+  input{
+    &:checked{
+      ~ label{
+        .round-indicator{
+          border: 1px solid $primary;
+          background: #fff;
+          &:after{
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+.round-indicator {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #E5E5E5;
+  background-color: #E5E5E5;
+  min-width: 20px;
+  max-width: 20px;
+  min-height: 20px;
+  max-height: 20px;
+  border-radius: 500px;
+}
+.round-indicator:after {
+  content: "";
+  background-color: #473bf0;
+  min-width: 12px;
+  max-width: 12px;
+  min-height: 12px;
+  max-height: 12px;
+  border-radius: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+}
+
+/*Checkout page radio button*/
+
+
+
+.form-control::placeholder {
+  color: $lynch;
+  opacity: 1;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}

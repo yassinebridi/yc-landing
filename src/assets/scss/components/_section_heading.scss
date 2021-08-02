@@ -1,0 +1,65 @@
+
+/*Section heading style-1*/
+
+.section__heading {
+    h2 {
+        color: $haiti;
+        font-size: 36px !important;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -1.58px;
+        line-height: normal;
+        margin-bottom: 20px;
+
+        @include mobile {
+            font-size: 38px !important;
+        }
+       
+        @include tablet {
+            font-size: 48px !important;
+        }
+    }
+
+    p {
+        color: $waterloo;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: 34px;
+        margin-bottom: 0;
+    }
+}
+
+/*Section heading style-2*/
+
+.section__heading-2 {
+    h2 {
+        color: $haiti;
+        font-size: 36px !important;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: -1.39px;
+        line-height: 48px;
+        margin-bottom: 20px;
+        @include mobile  {
+            font-size: 38px !important;
+            line-height: 50px;
+        }
+       
+        @include desktops  {
+            font-size: 42px !important;
+            line-height: 55px;
+        }
+    }
+
+    p {
+        color: $waterloo;
+        font-size: 20px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.66px;
+        line-height: 34px;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,1220 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Footer landing-1
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-area {
+    background: $bunting-aprx;
+
+    .footer-quick-link-area {
+        margin-bottom: -45px;
+    }
+
+    @include mobile-xs {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 100px;
+        padding-bottom: 140px;
+    }
+
+    .join-us-content {
+
+        @include mobile-xs {
+            margin-right: 0px;
+        }
+
+        @include tablet {
+            margin-right: 65px;
+        }
+
+        h2 {
+            color: $white;
+            font-size: 34px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -1.12px;
+            line-height: 50px;
+        }
+
+    }
+
+    .join-us-btn {
+        .btn {
+            min-width: 180px;
+            height: 60px;
+            color: $white;
+            border-radius: 6px;
+            background-color: $primary;
+
+            @include mobile-xs {
+                margin-top: 25px;
+            }
+
+            @include tablet {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .border-footer {
+        margin: 85px 0px 120px 0px;
+        background-color: $white;
+        opacity: 0.1;
+        height: 1px;
+
+        @include mobile-xs {
+            margin: 40px 0px 40px 0px;
+        }
+
+        @include tablet {
+            margin: 60px 0px 80px 0px;
+        }
+
+        @include desktops {
+            margin: 85px 0px 120px 0px;
+        }
+    }
+
+    .footer-area-list-item {
+        h4 {
+            color: $white;
+            font-size: 12px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: 1.2px;
+            line-height: normal;
+            text-align: left;
+            text-transform: uppercase;
+
+            @include mobile-xs {
+                margin-bottom: 25px;
+            }
+
+            @include desktops {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+
+    .footer-area-list-item {
+        ul {
+            margin-bottom: -15px;
+
+            li {
+                margin-bottom: 15px;
+
+                a {
+                    color:#9DA7C3;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    text-align: left;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        margin-bottom: 45px;
+
+    }
+
+    .get-in-touch-area {
+
+        @include mobile-xs {
+            margin-left: 0px;
+            padding-right: 0px;
+        }
+
+        @include desktops {
+            margin-left: 65px;
+            padding-right: 15px;
+        }
+
+        p {
+            color: #9DA7C3;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: 28px;
+        }
+
+        h3 {
+            color: $primary;
+            font-size: 18px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.82px;
+            line-height: normal;
+            margin-bottom: 32px;
+        }
+
+        ul {
+            margin: 0px -6px;
+
+            li {
+                display: inline-block;
+                margin: 0px 6px;
+
+                i {
+                    width: 40px;
+                    height: 40px;
+                    background-color: $haiti;
+                    line-height: 40px;
+                    text-align: center;
+                    border-radius: 50%;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Footer landing-2
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer--area-2 {
+    h4 {
+        text-transform: initial;
+        font-size: 16px;
+        letter-spacing: -0.53px;
+    }
+
+    .nav-cta-content {
+        .cta-area-btn-group {
+            margin: 22px -8px -20px -8px;
+
+            a {
+                margin: 0px 8px 20px 8px;
+                display: inline-block;
+            }
+        }
+    }
+
+    .subscribe-newsletter {
+        margin-top: 30px;
+
+        @include tablet {
+            margin-top: 40px;
+        }
+
+        @include desktops {
+            margin-top: 0;
+            margin-left: 80px;
+        }
+
+        h4 {
+            margin-bottom: 19px;
+        }
+
+        .form-control {
+            font-size: 16px;
+            font-weight: 400;
+            color: $lynch;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+            border: 0;
+            height: 65px;
+            border-radius: 6px;
+            background-color: $haiti;
+            padding: 0px 150px 0px 18px;
+        }
+
+        .btn {
+            color: $white;
+            width: 115px;
+            height: 45px;
+            border-radius: 6px;
+            background-color: $primary;
+            margin-left: 0px;
+            margin-top: 10px;
+
+            @include mobile-lg {
+                margin-left: -140px;
+            }
+        }
+    }
+
+    .footer-quick-link-area {
+        padding-top: 50px;
+
+        @include tablet {
+            padding-top: 70px;
+        }
+
+        @include desktops {
+            padding-top: 140px;
+        }
+    }
+
+}
+
+.copy-right-area {
+    padding: 25px 0px;
+
+    .copy-right-text {
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+        }
+
+    }
+
+    .social-link {
+        justify-content: center;
+        margin: 20px 0px 0px 0px;
+
+        @include mobile-lg {
+            justify-content: flex-end;
+            margin: 0px -12px 0px -12px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        h4 {
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+            margin-bottom: 0;
+        }
+
+        a {
+            color: $lynch;
+            font-size: 18px;
+            margin: 0px 12px;
+
+            &:hover {
+                color: $secondary;
+            }
+        }
+    }
+}
+
+.footer-2-border {
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    width: 100%;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Footer landing-3
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-area-l3 {
+    background: $white;
+    padding-top: 50px;
+    padding-bottom: 88px;
+
+    @include tablet {
+        padding-top: 80px;
+
+    }
+
+    @include desktops {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    .footer-quick-link-area {
+        margin-bottom: -45px;
+    }
+
+    .col-lg-3 {
+        margin-bottom: 45px;
+    }
+
+    .footer-area-list-item {
+        h4 {
+            color: $haiti;
+            font-size: 12px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: 1.2px;
+            line-height: normal;
+            text-align: left;
+            text-transform: uppercase;
+
+            @include mobile-xs {
+                margin-bottom: 25px;
+            }
+
+            @include desktops {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+
+    .footer-area-list-item {
+
+        ul {
+            margin-bottom: -15px;
+
+            li {
+                margin-bottom: 15px;
+
+                a {
+                    color: $haiti;
+                    opacity: 0.6;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    text-align: left;
+                    text-decoration: none;
+                }
+            }
+        }
+
+
+
+    }
+
+    .get-in-touch-area {
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-top: 45px;
+
+        @include mobile-lg {
+            padding-top: 0px;
+        }
+
+        @include desktops {
+            margin-left: 65px;
+            padding-right: 15px;
+        }
+
+        p {
+            color: $haiti;
+            opacity: 0.6;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: 28px;
+        }
+
+        h3 {
+            color: $primary;
+            font-size: 18px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.82px;
+            line-height: normal;
+            margin-bottom: 32px;
+        }
+
+        ul {
+            margin: 0px -6px;
+
+            li {
+                display: inline-block;
+                margin: 0px 6px;
+
+                i {
+                    width: 40px;
+                    height: 40px;
+                    background-color: $catskillwhite;
+                    line-height: 40px;
+                    text-align: center;
+                    border-radius: 50%;
+                    color: $lynch;
+                }
+            }
+        }
+    }
+}
+
+
+.footer-3-border {
+    height: 1px;
+    background-color: $porcelain;
+    margin-bottom: 40px;
+}
+
+.copy-right-area-l3 {
+    padding-bottom: 35px;
+
+    p {
+        color: $waterloo;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: -0.53px;
+        line-height: normal;
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Footer landing-4
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-border-l4 {
+    height: 1px;
+    background-color: $white;
+    opacity: 0.1;
+    margin-top: 50px;
+
+    @include tablet {
+        margin-top: 60px;
+    }
+
+    @include desktops {
+        margin-top: 105px;
+    }
+
+}
+
+.footer-area-4 {
+
+    .footer-quick-link-area {
+        margin-bottom: -50px;
+    }
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @include mobile-lg {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 100px;
+        padding-bottom: 140px;
+    }
+
+    .footer-area-list-item {
+        h4 {
+            color: $white;
+            font-size: 13px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: 1.2px;
+            line-height: normal;
+            opacity: 0.7;
+            text-transform:uppercase;
+            @include mobile-xs {
+                margin-bottom: 25px;
+            }
+
+            @include desktops {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+
+    .footer-area-list-item {
+        ul {
+            margin-bottom: -15px;
+
+            li {
+                margin-bottom: 15px;
+
+                a {
+                    color: $white;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: -0.53px;
+                    line-height: normal;
+                    text-decoration: none;
+                    opacity: 0.99;
+                }
+            }
+        }
+
+        margin-bottom: 50px;
+
+    }
+
+    .social-link {
+        padding-top: 40px;
+        margin-bottom: 30px;
+
+        @include tablet {
+            padding-top: 50px;
+            margin-bottom: 0;
+        }
+
+        @include desktops {
+            padding-top: 150px;
+        }
+
+        h4 {
+            color: $white;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+            margin-bottom: 13px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            margin: 0px -12px;
+
+            a {
+                color: $white;
+                font-size: 18px;
+                margin: 0px 12px;
+                transition: all 0.4s ease-in-out;
+
+                &:hover {
+                    color: $secondary;
+                }
+            }
+        }
+
+    }
+
+}
+
+.contact-details-l4-area {
+    margin-bottom: -30px;
+
+    .contact-details-l4 {
+        margin-bottom: 30px;
+
+        i {
+            color: $white;
+            margin-right: 15px;
+            font-size: 18px;
+        }
+
+        .content {
+            margin-bottom: -5px;
+            margin-top: -5px;
+
+            a {
+                display: block;
+                color: $white;
+                font-size: 16px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: -0.53px;
+                line-height: normal;
+                text-decoration: none;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Footer landing-5
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-area-l5 {
+    background: $bunting-aprx;
+
+    .footer-quick-link-area {
+        margin-bottom: -45px;
+    }
+
+    @include mobile-xs {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 100px;
+        padding-bottom: 140px;
+    }
+
+    .join-us-content {
+
+        @include mobile-xs {
+            margin-right: 0px;
+        }
+
+        @include tablet {
+            margin-right: 65px;
+        }
+
+        h2 {
+            color: $white;
+            font-size: 34px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -1.12px;
+            line-height: 50px;
+        }
+
+    }
+
+    .join-us-btn {
+        .btn {
+            min-width: 180px;
+            height: 60px;
+            color: $white;
+            font-size: 16px;
+            font-weight: 500;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+            border-radius: 30px;
+            background-color: $primary;
+
+            @include mobile-xs {
+                margin-top: 25px;
+            }
+
+            @include tablet {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .border-footer {
+        margin: 85px 0px 120px 0px;
+        background-color: $white;
+        opacity: 0.1;
+        height: 1px;
+
+        @include mobile-xs {
+            margin: 40px 0px 40px 0px;
+        }
+
+        @include tablet {
+            margin: 60px 0px 80px 0px;
+        }
+
+        @include desktops {
+            margin: 85px 0px 120px 0px;
+        }
+    }
+
+    .footer-area-list-item {
+        h4 {
+            color: $white;
+            font-size: 12px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: 1.2px;
+            line-height: normal;
+            text-align: left;
+            text-transform: uppercase;
+
+            @include mobile-xs {
+                margin-bottom: 25px;
+            }
+
+            @include desktops {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+
+    .footer-area-list-item {
+        ul {
+            margin-bottom: -15px;
+
+            li {
+                margin-bottom: 15px;
+
+                a {
+                    color: $lynch;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    text-align: left;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        margin-bottom: 45px;
+
+    }
+
+    .get-in-touch-area {
+
+        @include mobile-xs {
+            margin-left: 0px;
+            padding-right: 0px;
+        }
+
+        @include desktops {
+            margin-left: 65px;
+            padding-right: 15px;
+        }
+
+        p {
+            color: $lynch;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: 28px;
+        }
+
+        h3 {
+            color: $primary;
+            font-size: 18px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.82px;
+            line-height: normal;
+            margin-bottom: 32px;
+        }
+
+        ul {
+            margin: 0px -6px;
+
+            li {
+                display: inline-block;
+                margin: 0px 6px;
+
+                i {
+                    width: 40px;
+                    height: 40px;
+                    background-color: $haiti;
+                    line-height: 40px;
+                    text-align: center;
+                    border-radius: 50%;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Footer landing-6
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+.footer-area-6 {
+
+    .footer-quick-link-area {
+        margin-bottom: -50px;
+    }
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @include mobile-lg {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 100px;
+        padding-bottom: 140px;
+    }
+
+    .footer-area-list-item {
+        h4 {
+            color: #868B98;
+            font-size: 13px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: 1.2px;
+            line-height: normal;
+            text-transform:uppercase;
+            @include mobile-xs {
+                margin-bottom: 25px;
+            }
+
+            @include desktops {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+
+    .footer-area-list-item {
+        ul {
+            margin-bottom: -15px;
+
+            li {
+                margin-bottom: 15px;
+
+                a {
+                    color: $bunting;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: -0.53px;
+                    line-height: normal;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        margin-bottom: 50px;
+
+    }
+
+    .social-link {
+        padding-top: 40px;
+        margin-bottom: 30px;
+
+        @include tablet {
+            padding-top: 50px;
+            margin-bottom: 0;
+        }
+
+        @include desktops {
+            padding-top: 150px;
+        }
+
+        h4 {
+            color: $bunting-aprx;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+            margin-bottom: 13px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            margin: 0px -12px;
+
+            a {
+                color: $lynch;
+                font-size: 18px;
+                margin: 0px 12px;
+            }
+        }
+
+    }
+
+    .download-image {
+        margin-bottom: -20px;
+
+        a {
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+    }
+
+
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Footer landing-8
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-area-8 {
+
+    &-list-item {
+        h4 {
+            opacity: 0.6;
+            color: $white;
+            font-size: 12px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: 2.41px;
+            line-height: normal;
+            text-align: left;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: $white;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+            display: inline-block;
+            margin-bottom: 27px;
+        }
+    }
+
+
+
+    .subscribe-newsletter {
+
+        @include desktops {
+            margin-left: 80px;
+        }
+
+        p {
+            color: $white;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+            margin-bottom: 27px;
+        }
+
+        .form-control {
+            font-size: 16px;
+            font-weight: 400;
+            color: $lynch;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+            border: 0;
+            width: 100%;
+            height: 70px;
+            border-radius: 35px;
+            background-color: $white;
+            padding: 0px 76px 0px 32px;
+        }
+
+        .btn {
+            color: $white;
+            min-width: auto;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: $primary;
+            margin-left: 0px;
+            margin-left: -68px;
+            margin-top: 5px;
+
+        }
+    }
+
+
+}
+
+.copy-right-area-8 {
+    padding: 40px 0px 40px 0px;
+
+    @include tablet {
+        padding: 85px 0px 40px 0px;
+    }
+
+    .copy-right-text {
+        p {
+            color: $porcelain;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: normal;
+            margin-left: 15px;
+
+            @include mobile {
+                margin-left: 45px;
+            }
+        }
+
+    }
+
+    .social-link {
+        justify-content: center;
+        margin: 30px 0px 0px 0px;
+
+        @include tablet {
+            justify-content: flex-end;
+            margin: 0px -12px 0px -12px;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        i {
+            color: $white;
+            font-size: 14px;
+            margin: 0px 12px;
+            background: rgba(13, 21, 46, 0.2);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+        }
+    }
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+        Footer landing-9
+        <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer--area-9 {
+    padding-top: 0;
+}
+
+.footer-quick-link-area-9 {
+    padding-top: 0 !important;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+    Footer Inner
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.footer-inner {
+    background: $bunting-aprx;
+
+    .footer-quick-link-area {
+        margin-bottom: -45px;
+    }
+
+    @include mobile-xs {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    @include desktops {
+        padding-top: 107px;
+        padding-bottom: 115px;
+    }
+
+
+
+    .footer-area-list-item {
+        h4 {
+            color: $white;
+            font-size: 12px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: 1.2px;
+            line-height: normal;
+            text-align: left;
+            text-transform: uppercase;
+
+            @include mobile-xs {
+                margin-bottom: 25px;
+            }
+
+            @include desktops {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+
+    .footer-area-list-item {
+        ul {
+            margin-bottom: -15px;
+
+            li {
+                margin-bottom: 15px;
+
+                a {
+                    color: $lynch;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: normal;
+                    text-align: left;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        margin-bottom: 45px;
+
+    }
+
+    .get-in-touch-area {
+
+        @include mobile-xs {
+            margin-left: 0px;
+            padding-right: 0px;
+        }
+
+        @include desktops {
+            margin-left: 65px;
+            padding-right: 15px;
+        }
+
+        p {
+            color: $lynch;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: -0.53px;
+            line-height: 28px;
+        }
+
+        h3 {
+            color: $primary;
+            font-size: 18px;
+            font-weight: 700;
+            font-style: normal;
+            letter-spacing: -0.82px;
+            line-height: normal;
+            margin-bottom: 32px;
+        }
+
+        ul {
+            margin: 0px -6px;
+
+            li {
+                display: inline-block;
+                margin: 0px 6px;
+
+                i {
+                    width: 40px;
+                    height: 40px;
+                    background-color: $haiti;
+                    line-height: 40px;
+                    text-align: center;
+                    border-radius: 50%;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
